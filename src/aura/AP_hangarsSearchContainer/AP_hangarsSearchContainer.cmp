@@ -1,0 +1,13 @@
+<aura:component description="hangarsSearchContainer" access="global" implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name="hangars" type="AP_Hangar__c[]"/>
+    <div class="slds-grid">
+        <div class="slds-col slds-size_5-of-12">
+            <c:AP_hangarsSearchBox hangars="{!v.hangars}"/>
+            <c:AP_hangarsSearchResults hangars="{!v.hangars}"/>
+        </div>
+        <div class="slds-col slds-size_7-of-12">
+            <c:AP_hangarsSearchMap/>
+        </div>
+    </div>
+
+</aura:component>

@@ -1,0 +1,21 @@
+<!--
+ - Created by BRITENET on 27.04.2018.
+ -->
+
+<apex:component id="SMS_sldsSpinner">
+    <apex:slds />
+    <apex:form id="form">
+        <apex:actionStatus id="lightningSearch">
+            <apex:facet name="start">
+                <div class="slds-scope">
+                    <div class="slds-spinner_container" style="position: fixed;">
+                        <div role="status" class="slds-spinner slds-spinner--large slds-spinner--brand">
+                            <div class="slds-spinner__dot-a"></div>
+                            <div class="slds-spinner__dot-b"></div>
+                        </div>
+                    </div>
+                </div>
+            </apex:facet>
+        </apex:actionStatus>
+    </apex:form>
+</apex:component>

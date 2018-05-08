@@ -1,0 +1,49 @@
+<aura:component description="hangarsSearchResults">
+    <aura:attribute name="hangars" type="AP_Hangar__c[]"/>
+
+
+    <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-is-open  slds-p-around_medium slds-m-around--medium"
+         aria-hidden="false">
+        <div class="slds-panel__header">
+            <h2 class="slds-panel__header-title slds-text-heading_small">Panel Header</h2>
+        </div>
+        <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+            <thead>
+            <tr class="slds-text-title_caps">
+                <th scope="col">
+                    Name
+                </th>
+                <th scope="col">
+                    Country
+                </th>
+                <th scope="col">
+                    City
+                </th>
+                <th scope="col">
+                    Capacity
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+
+            <aura:iteration items="{!v.hangars}" var="hangar">
+                <tr>
+                    <td>
+                            {!hangar.Name}
+                    </td>
+                    <td>
+                            {!hangar.Country__c}
+                    </td>
+                    <td>
+                            {!hangar.City__c}
+                    </td>
+                    <td>
+                            {!hangar.Capacity__c}
+                    </td>
+
+                </tr>
+            </aura:iteration>
+            </tbody>
+        </table>
+    </div>
+</aura:component>

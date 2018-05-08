@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <formFactors>Small</formFactors>
+    <formFactors>Medium</formFactors>
+    <formFactors>Large</formFactors>
+    <label>Sales</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Task</tabs>
+    <tabs>standard-File</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
+    <tabs>standard-Event</tabs>
+    <tabs>standard-OtherUserProfile</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Forecasting3</tabs>
+    <tabs>SMS_Shop__c</tabs>
+    <tabs>SMS_Wholesale__c</tabs>
+    <tabs>SMS_Supply__c</tabs>
+    <tabs>Search_for_Shop</tabs>
+    <tabs>Shop_Import</tabs>
+    <tabs>External_Wholesales</tabs>
+    <tabs>External_Shops</tabs>
+    <tabs>Manage_Users</tabs>
+    <tabs>Shops_Standard_API</tabs>
+    <tabs>Org_Information</tabs>
+    <uiType>Lightning</uiType>
+</CustomApplication>
