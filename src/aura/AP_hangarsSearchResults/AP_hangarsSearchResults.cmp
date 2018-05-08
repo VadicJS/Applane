@@ -3,7 +3,7 @@
 
 
     <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-is-open  slds-p-around_medium slds-m-around--medium"
-         aria-hidden="false">
+                   aria-hidden="false">
         <div class="slds-panel__header">
             <h2 class="slds-panel__header-title slds-text-heading_small">Panel Header</h2>
         </div>
