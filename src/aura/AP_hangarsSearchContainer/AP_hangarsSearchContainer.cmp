@@ -1,0 +1,20 @@
+<aura:component description="hangarsSearchContainer" access="global" implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name="hangars" type="List"/>
+    <aura:attribute name="hangar" type="Object"/>
+    <div class="slds-grid">
+        <div class="slds-col slds-size_5-of-12">
+            <c:AP_hangarsSearchBox hangars="{!v.hangars}" hangar="{!v.hangar}"/>
+            <aura:if isTrue="{!v.hangars.length != 0}">
+                <c:AP_hangarsSearchResults hangars="{!v.hangars}" hangar="{!v.hangar}"/>
+            </aura:if>
+        </div>
+        <div class="slds-col slds-size_5-of-12">
+            <div class="slds-p-around_medium slds-m-around--medium" style="background-color: white; border-radius: 5px;">
+                <c:AP_hangarsSearchMap hangars="{!v.hangars}" hangar="{!v.hangar}"/>
+            </div>
+            <aura:if isTrue="{!v.hangar != undifined}">
+                <c:AP_hangarsSearchDetails hangarWrapper="{!v.hangar}"/>
+            </aura:if>
+        </div>
+    </div>
+</aura:component>

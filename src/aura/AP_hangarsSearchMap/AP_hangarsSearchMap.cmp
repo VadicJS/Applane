@@ -1,0 +1,13 @@
+<aura:component description="AP_hangarsSearchMap" controller="AP_HangarsSearchController">
+    <aura:attribute name="map" type="Object"/>
+    <aura:attribute name="hangars" type="Object[]"/>
+    <aura:attribute name="hangar" type="Object"/>
+    <aura:attribute name="mapMarkers" type="List" />
+    <aura:handler name="change" value="{!v.hangars}" action="{!c.setLocations}"/>
+    <aura:handler name="change" value="{!v.hangar}" action="{!c.setSingleLocation}"/>
+    <ltng:require styles="/resource/AP_leafletMap/leaflet.css"
+                  scripts="/resource/AP_leafletMap/leaflet.js"
+                  afterScriptsLoaded="{!c.jsLoaded}" />
+        <div class="slds-map"  id="map"></div>
+
+</aura:component>

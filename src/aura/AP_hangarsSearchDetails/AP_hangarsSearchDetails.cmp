@@ -1,0 +1,34 @@
+<aura:component description="AP_hangarsSearchDetails">
+    <aura:attribute name="hangarWrapper" type="Object"/>
+    <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-is-open slds-p-around_medium slds-m-around--medium">
+        <lightning:card iconName="standard:home" title="{! v.hangarWrapper.hangar.Name + ' ' +  $Label.c.AP_Hangar_Details }">
+            <div class="slds-p-left_medium slds-p-right_medium">
+                <div class="slds-media" id="item">
+                    <div class="slds-media__body">
+                        <div class="slds-grid">
+                            <div aura:id="hangarDetails" class="slds-m-top_small">
+                                <ul class="slds-grid slds-wrap">
+                                    <li class="slds-list__item slds-size_1-of-2">
+                                        <span class="slds-text-color_weak slds-m-right_small">{!$Label.c.Country}:</span>{!v.hangarWrapper.hangar.Country__c}
+                                    </li>
+                                    <li class="slds-list__item slds-size_1-of-2">
+                                        <span class="slds-text-color_weak slds-m-right_small">{!$Label.c.City}:</span>{!v.hangarWrapper.hangar.City__c}
+                                    </li>
+                                    <li class="slds-list__item slds-size_1-of-2">
+                                        <span class="slds-text-color_weak slds-m-right_small">{!$Label.c.AP_Property_Number}:</span>{!v.hangarWrapper.hangar.Property_Number__c}
+                                    </li>
+                                    <li class="slds-list__item slds-size_1-of-2">
+                                        <span class="slds-text-color_weak slds-m-right_small">{!$Label.c.AP_Capacity}:</span>{!v.hangarWrapper.hangar.Capacity__c}
+                                    </li>
+                                    <li class="slds-list__item slds-size_1-of-2">
+                                        <span class="slds-text-color_weak slds-m-right_small"><lightning:icon iconName="utility:call" size="xx-small"/> {!$Label.c.AP_Phone}:</span>{!v.hangarWrapper.hangar.Phone__c}
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </lightning:card>
+    </div>
+</aura:component>

@@ -1,0 +1,6 @@
+<aura:component description="AP_PickListValues" controller="AP_HangarsSearchController" access="global">
+        <aura:attribute name="sObjectName" type="String" />
+        <aura:attribute name="fieldName" type="String" />
+        <aura:attribute name="pickListValues" type="Object" />
+        <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+</aura:component>

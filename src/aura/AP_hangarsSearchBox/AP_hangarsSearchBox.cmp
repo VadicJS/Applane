@@ -1,0 +1,53 @@
+<aura:component implements="forceCommunity:searchInterface" controller="AP_HangarsSearchController">
+    <aura:attribute name="country" type="String" default=""/>
+    <aura:attribute name="capacity" type="Integer" default="0"/>
+    <aura:attribute name="hangars" type="AP_Hangar__c[]" default=""/>
+    <aura:attribute name="hangar" type="AP_Hangar__c" default=""/>
+    <aura:attribute name="countryPickListValues" type="List" default=""/>
+    <aura:attribute name="showSpinner" type="Boolean"/>
+    <c:AP_PickListValues sObjectName="AP_Hangar__c" fieldName="Country__c" pickListValues="{!v.countryPickListValues}"/>
+    <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-is-open slds-p-around_medium slds-m-around--medium"
+         aria-hidden="false">
+        <aura:if isTrue="{!v.showSpinner}">
+            <div class="slds-spinner_container">
+                <lightning:spinner aura:id="mySpinner"/>
+            </div>
+        </aura:if>
+        <div class="slds-panel__header">
+            <h2 class="slds-panel__header-title slds-text-heading_small">{!$Label.c.Search_for_Hangars}</h2>
+        </div>
+        <div class="slds-form-element slds-lookup" data-select="single">
+            <div class="slds-form-element__control">
+                <div class="slds-input-has-icon slds-input-has-icon--right">
+                    <div class="slds-form slds-form_compound" style="margin: auto; width:70%">
+                        <fieldset class="slds-form-element">
+                            <legend class="slds-form-element__label slds-text-title_caps"
+                                    style="font-size: 18px; ">
+                            </legend>
+                            <div class="slds-form-element__group">
+                                <div class="slds-form-element__row">
+                                    <div class="slds-form-element slds-size_1-of-2">
+                                        <lightning:select label="{!$Label.c.AP_Select_Country}" name="selectCountry"
+                                                          value="{!v.country}">
+                                            <aura:iteration items="{!v.countryPickListValues}" var="opt">
+                                                <option value="{!opt}">{!opt}</option>
+                                            </aura:iteration>
+                                        </lightning:select>
+                                    </div>
+                                    <div class="slds-form-element slds-size_1-of-2">
+                                        <lightning:input value="{!v.capacity}" label="Capacity"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div align="center">
+                        <lightning:button onclick="{!c.search}" class="slds-button slds-button_brand">{!$Label.c.Search}
+                        </lightning:button>
+                        <lightning:button onclick="{!c.clear}">{!$Label.c.Clear}</lightning:button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</aura:component>

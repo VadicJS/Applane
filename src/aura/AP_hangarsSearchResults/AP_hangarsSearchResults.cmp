@@ -1,0 +1,17 @@
+<aura:component description="hangarsSearchResults">
+    <aura:attribute name="hangars" type="Object"/>
+    <aura:attribute name="hangar" type="Object"/>
+    <div class="slds-panel slds-panel_docked slds-panel_docked-left slds-is-open slds-p-around_medium slds-m-around--medium">
+        <lightning:card iconName="custom:custom20" title="Hangars Search Results">
+            <div class="slds-p-left_medium slds-p-right_medium">
+                <ul class="slds-list_vertical slds-has-divider_top-space">
+                    <aura:iteration items="{!v.hangars}" var="hangarWrapper" indexVar="indx">
+                        <li class="slds-list__item slds-p-around--table-cell-spacing"    aura:id="listItem" data-id="{!indx}" onclick="{!c.addClass}">
+                            <c:AP_hangarsSearchCard hangarId="{!hangarWrapper.hangar.Id}" hangar="{!v.hangar}"/>
+                        </li>
+                    </aura:iteration>
+                </ul>
+            </div>
+        </lightning:card>
+    </div>
+</aura:component>

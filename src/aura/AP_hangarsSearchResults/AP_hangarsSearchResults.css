@@ -1,0 +1,15 @@
+.THIS{
+        min-height: 153px;
+}
+
+.THIS .itemSelect{
+    background-color: rgba(0, 155, 255, 0.6) !important;
+}
+.THIS li{
+    transition: 0.5s;
+}
+
+.THIS li:hover {
+    background-color: lightgray;
+    cursor: pointer;
+   }

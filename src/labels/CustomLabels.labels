@@ -1,0 +1,1333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AP_Airplane_Save_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP_Airplane_Save_Error</shortDescription>
+        <value>There was an error saving the record:</value>
+    </labels>
+    <labels>
+        <fullName>AP_Airplane_Saved_Message</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Airplane Saved Message</shortDescription>
+        <value>The product was saved.</value>
+    </labels>
+    <labels>
+        <fullName>AP_Capacity</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP_Capacity</shortDescription>
+        <value>Capacity</value>
+    </labels>
+    <labels>
+        <fullName>AP_Contact</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP_Contact</shortDescription>
+        <value>Contact</value>
+    </labels>
+    <labels>
+        <fullName>AP_Delete_Airplane_Confirm</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Delete Airplane Confirm</shortDescription>
+        <value>Do you really want to delete this airplane?</value>
+    </labels>
+    <labels>
+        <fullName>AP_Drive_Type</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Drive Type</shortDescription>
+        <value>Drive Type</value>
+    </labels>
+    <labels>
+        <fullName>AP_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP_Error</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>AP_Gallery</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Gallery</shortDescription>
+        <value>Gallery</value>
+    </labels>
+    <labels>
+        <fullName>AP_Hangar_Details</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Hangar Details</shortDescription>
+        <value>Hangar Details</value>
+    </labels>
+    <labels>
+        <fullName>AP_Length</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Length</shortDescription>
+        <value>Length (m)</value>
+    </labels>
+    <labels>
+        <fullName>AP_Main_Engine</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Main Engine</shortDescription>
+        <value>Main Engine</value>
+    </labels>
+    <labels>
+        <fullName>AP_Main_Image</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Main Image</shortDescription>
+        <value>Main image</value>
+    </labels>
+    <labels>
+        <fullName>AP_Maximum_Cruise_Speed</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP_Maximum_Cruise_Speed</shortDescription>
+        <value>Maximum Cruise Speed (ktas)</value>
+    </labels>
+    <labels>
+        <fullName>AP_Maximum_Range</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Maximum Range</shortDescription>
+        <value>Maximum Range (nm)</value>
+    </labels>
+    <labels>
+        <fullName>AP_Number_Of_Engines</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Number Of Engines</shortDescription>
+        <value>Engines</value>
+    </labels>
+    <labels>
+        <fullName>AP_Number_Of_Seats</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Number Of Seats</shortDescription>
+        <value>Maximum Passengers</value>
+    </labels>
+    <labels>
+        <fullName>AP_Offer</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP_Offer</shortDescription>
+        <value>Offer</value>
+    </labels>
+    <labels>
+        <fullName>AP_Phone</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP_Phone</shortDescription>
+        <value>Phone</value>
+    </labels>
+    <labels>
+        <fullName>AP_Product_Family</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Product Family</shortDescription>
+        <value>Airplane family</value>
+    </labels>
+    <labels>
+        <fullName>AP_Property_Number</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Property Number</shortDescription>
+        <value>Property Number</value>
+    </labels>
+    <labels>
+        <fullName>AP_Saved</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP_Saved</shortDescription>
+        <value>Saved</value>
+    </labels>
+    <labels>
+        <fullName>AP_Search_For_Airplanes</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Search For Airplanes</shortDescription>
+        <value>Search for airplanes</value>
+    </labels>
+    <labels>
+        <fullName>AP_Select_Country</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Select Country</shortDescription>
+        <value>Select Country</value>
+    </labels>
+    <labels>
+        <fullName>AP_Street</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP_Street</shortDescription>
+        <value>Street</value>
+    </labels>
+    <labels>
+        <fullName>AP_Takeoff_Field_Length</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Takeoff Field Length</shortDescription>
+        <value>Takeoff Field Length (m)</value>
+    </labels>
+    <labels>
+        <fullName>AP_Useful_Load</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Useful Load</shortDescription>
+        <value>Useful Load (kg)</value>
+    </labels>
+    <labels>
+        <fullName>AP_Wingspan</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>AP Wingspan</shortDescription>
+        <value>Wingspan (m)</value>
+    </labels>
+    <labels>
+        <fullName>Accept</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Accept</shortDescription>
+        <value>Yes</value>
+    </labels>
+    <labels>
+        <fullName>Action</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Action</shortDescription>
+        <value>Action</value>
+    </labels>
+    <labels>
+        <fullName>Activate</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Activate</shortDescription>
+        <value>Activate</value>
+    </labels>
+    <labels>
+        <fullName>Active</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Active</shortDescription>
+        <value>Active</value>
+    </labels>
+    <labels>
+        <fullName>Add_Contract</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Contract</shortDescription>
+        <value>Add contract</value>
+    </labels>
+    <labels>
+        <fullName>Add_Wholesale</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Wholesale</shortDescription>
+        <value>Add Wholesale</value>
+    </labels>
+    <labels>
+        <fullName>Add_contracts</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add contracts</shortDescription>
+        <value>Add contracts to</value>
+    </labels>
+    <labels>
+        <fullName>Add_new_contract</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add new contract</shortDescription>
+        <value>Add new contract</value>
+    </labels>
+    <labels>
+        <fullName>Address</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Address</shortDescription>
+        <value>Address</value>
+    </labels>
+    <labels>
+        <fullName>Address_not_Found</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Address not Found</shortDescription>
+        <value>Oops! Address could not be found, please make sure the address is correct.</value>
+    </labels>
+    <labels>
+        <fullName>All</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>All</shortDescription>
+        <value>All</value>
+    </labels>
+    <labels>
+        <fullName>Basic_Info</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Basic Info</shortDescription>
+        <value>Basic Info</value>
+    </labels>
+    <labels>
+        <fullName>Body</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Body</shortDescription>
+        <value>Body</value>
+    </labels>
+    <labels>
+        <fullName>Browser</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Browser</shortDescription>
+        <value>Browser</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Cash_Desk_Number</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Cash Desk Number</shortDescription>
+        <value>Cash Desk Number</value>
+    </labels>
+    <labels>
+        <fullName>Childs_Shops_For</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Childs Shops For</shortDescription>
+        <value>Child shops for</value>
+    </labels>
+    <labels>
+        <fullName>City</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>City</shortDescription>
+        <value>City</value>
+    </labels>
+    <labels>
+        <fullName>Clear</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Clear</shortDescription>
+        <value>Clear</value>
+    </labels>
+    <labels>
+        <fullName>Confirm</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Confirm</shortDescription>
+        <value>Confirm</value>
+    </labels>
+    <labels>
+        <fullName>Confirm_Delete</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Confirm Delete</shortDescription>
+        <value>Confirm Delete</value>
+    </labels>
+    <labels>
+        <fullName>Confirm_Delete_Image</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Confirm Delete Image</shortDescription>
+        <value>Do you really want to delete this image?</value>
+    </labels>
+    <labels>
+        <fullName>Confirm_Delete_Shop</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Confirm Delete Shop</shortDescription>
+        <value>Do you really want to delete this shop?</value>
+    </labels>
+    <labels>
+        <fullName>Confirm_Delete_Wholesale</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Confirm Delete Wholesale</shortDescription>
+        <value>Do you really want to delete this wholesale?</value>
+    </labels>
+    <labels>
+        <fullName>Contract_End_Date</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Contract End Date</shortDescription>
+        <value>Contract End Date</value>
+    </labels>
+    <labels>
+        <fullName>Contract_Start_Date</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Contract Start Date</shortDescription>
+        <value>Contract Start Date</value>
+    </labels>
+    <labels>
+        <fullName>Country</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Country</shortDescription>
+        <value>Country</value>
+    </labels>
+    <labels>
+        <fullName>Create</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Create</shortDescription>
+        <value>Create</value>
+    </labels>
+    <labels>
+        <fullName>Create_New_Shop</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Create New Shop</shortDescription>
+        <value>Create new shop</value>
+    </labels>
+    <labels>
+        <fullName>Csv_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Csv Error</shortDescription>
+        <value>You have to select .csv file.</value>
+    </labels>
+    <labels>
+        <fullName>Date_Overlapping</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Date Overlapping</shortDescription>
+        <value>Date Overlapping. Conflict with</value>
+    </labels>
+    <labels>
+        <fullName>Deactivate</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Deactivate</shortDescription>
+        <value>Deactivate</value>
+    </labels>
+    <labels>
+        <fullName>Delete</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>Details</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Details</shortDescription>
+        <value>Details</value>
+    </labels>
+    <labels>
+        <fullName>Download</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Download</shortDescription>
+        <value>Download</value>
+    </labels>
+    <labels>
+        <fullName>Duplicated_Record</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Duplicated Record</shortDescription>
+        <value>Import Failed. Duplicated record.</value>
+    </labels>
+    <labels>
+        <fullName>Edit</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>Email</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>Email_Required</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Required</shortDescription>
+        <value>Email value cannot be blank.</value>
+    </labels>
+    <labels>
+        <fullName>Error_request</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error_request</shortDescription>
+        <value>Error occured</value>
+    </labels>
+    <labels>
+        <fullName>Fill_dates</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Fill dates</shortDescription>
+        <value>Please fill both date fields</value>
+    </labels>
+    <labels>
+        <fullName>For_contact</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>For contact</shortDescription>
+        <value>For contact data, please visit our website www.smsystem.com.se</value>
+    </labels>
+    <labels>
+        <fullName>Germany</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Germany</shortDescription>
+        <value>Germany</value>
+    </labels>
+    <labels>
+        <fullName>IP</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>IP</shortDescription>
+        <value>IP</value>
+    </labels>
+    <labels>
+        <fullName>Image_too_big</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Image too big</shortDescription>
+        <value>File is to big, please choose another image which size is smaller than 1MB.</value>
+    </labels>
+    <labels>
+        <fullName>Import</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Import</shortDescription>
+        <value>Import</value>
+    </labels>
+    <labels>
+        <fullName>Import_Shops</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Import Shops</shortDescription>
+        <value>Import Shops</value>
+    </labels>
+    <labels>
+        <fullName>Imported</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Imported</shortDescription>
+        <value>Record succesfully imported!</value>
+    </labels>
+    <labels>
+        <fullName>Inactive</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Inactive</shortDescription>
+        <value>Inactive</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_AddQuestion</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Question</shortDescription>
+        <value>Add Question</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Anonymous</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Anonymous</shortDescription>
+        <value>Anonymous</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Answer_as</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Answer as</shortDescription>
+        <value>Answer as</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Cancel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Chatter</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chatter</shortDescription>
+        <value>Chatter</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Chatter_Link</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chatter Link</shortDescription>
+        <value>Chatter Link</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Community</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Community</shortDescription>
+        <value>Community</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Edit</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Email_Link_Anonymous</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Link, Anonymous</shortDescription>
+        <value>Email Link, Anonymous</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Email_Link_w_Contact_Case_Merge</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Link w/ Contact &amp; Case Merge</shortDescription>
+        <value>Email Link w/ Contact &amp; Case Merge</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Email_Link_w_Contact_Merge</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Link w/ Contact Merge</shortDescription>
+        <value>Email Link w/ Contact Merge</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_External_Please_Create_Site</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>For external facing surveys, please create a site first.  You may still create i</shortDescription>
+        <value>For external facing surveys, please create a site first.  You may still create internal surveys without creating a site.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_For_community_assistance_with_Survey_Force</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>For community assistance with Survey Force</shortDescription>
+        <value>For community assistance with Survey Force</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Getting_Help</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Help</shortDescription>
+        <value>Getting Help</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_HeaderAndThankYou</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Header and Thank You</shortDescription>
+        <value>Header, Thank You &amp; CSS</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Installation_Guide</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Installation Guide</shortDescription>
+        <value>Installation Guide</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Learn_More</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Learn More</shortDescription>
+        <value>Learn More</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_MakeANewSurvey</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Make A New Survey</shortDescription>
+        <value>Make A New Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_MakeNewSurvey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Make New Survey</shortDescription>
+        <value>Make New Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Make_a_Sample_Survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Make a Sample Survey</shortDescription>
+        <value>Make a Sample Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Next_Steps</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Next Steps</shortDescription>
+        <value>Next Steps</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_PleaseEnterTheList</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please enter the list</shortDescription>
+        <value>Please enter the list of answers/responses in the field below. Each value should be separated by a new line.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Question</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Question</shortDescription>
+        <value>Question</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Required</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Required</shortDescription>
+        <value>required</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_RequiredQuestion</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Required Question</shortDescription>
+        <value>Required Question</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Resources</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Resources</shortDescription>
+        <value>Resources</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Results</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Results</shortDescription>
+        <value>Results</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_SELECTTYPE</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>--SELECT--</shortDescription>
+        <value>--SELECT--</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Salesforce_Answers</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Salesforce Answers</shortDescription>
+        <value>Salesforce Answers</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Save</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_SaveOrder</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save Order</shortDescription>
+        <value>Save Order</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_SelectQuestionType</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select Question Type</shortDescription>
+        <value>Select Question Type</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Share</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Share</shortDescription>
+        <value>Share</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Share_My_Survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Share My Survey</shortDescription>
+        <value>Share My Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Sharing_Options</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sharing Options</shortDescription>
+        <value>Sharing Options</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_SubmitSurvey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Submit Survey</shortDescription>
+        <value>Submit Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_SurveyForceIsOpenSource</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SurveyForceIsOpenSource</shortDescription>
+        <value>Survey Force is Open Source software.  We welcome your issue reports, ideas, documentation, code tweaks and all other participation.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Survey_Force_is_unsupported</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Survey Force is unsupported</shortDescription>
+        <value>Survey Force is unsupported.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Survey_Force_on_Github</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Survey Force on Github</shortDescription>
+        <value>Survey Force on Github</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Survey_Submitted_Thank_you</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Your survey has been submitted. Thank you for taking our survey.</shortDescription>
+        <value>Your survey has been submitted. Thank you for taking our survey.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_To_submit_ideas_or_issues</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>To submit ideas or issues</shortDescription>
+        <value>To submit ideas or issues</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_User_Guide</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>User Guide</shortDescription>
+        <value>User Guide</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_View_Results_In_New_Window</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View Results In New Window</shortDescription>
+        <value>View Results In New Window</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_View_Sample_Survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View Sample Survey</shortDescription>
+        <value>View Sample Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Welcome_to_Survey_Force</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welcome to Survey Force</shortDescription>
+        <value>Welcome to Survey Force</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_X1_Create_a_sample_survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>1. Create a sample survey by clicking the button below.</shortDescription>
+        <value>1. Create a sample survey by clicking the button below.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_X2_External_Setup_Site</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>2. Set up a site if you would like to have external-facing surveys.</shortDescription>
+        <value>2. Set up a site if you would like to have external-facing surveys.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_X3_Start_creating_your_first_survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>3. Start creating your first survey.</shortDescription>
+        <value>3. Start creating your first survey.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_You_have_already_taken_this_survey</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You have already taken this survey!</shortDescription>
+        <value>You have already taken this survey!</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Your_next_few_steps_are_easy</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Your next few steps are easy.</shortDescription>
+        <value>Your next few steps are easy.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_please_visit</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>please visit</shortDescription>
+        <value>please visit</value>
+    </labels>
+    <labels>
+        <fullName>License_No</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>License No</shortDescription>
+        <value>License No</value>
+    </labels>
+    <labels>
+        <fullName>Login_Date</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Login Date</shortDescription>
+        <value>Login Date</value>
+    </labels>
+    <labels>
+        <fullName>Login_History</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Login History</shortDescription>
+        <value>Login History</value>
+    </labels>
+    <labels>
+        <fullName>Name</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>Network</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Network</shortDescription>
+        <value>Network</value>
+    </labels>
+    <labels>
+        <fullName>Network_Batch_Email_Subject</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Network Batch Email Subject</shortDescription>
+        <value>Shops network report</value>
+    </labels>
+    <labels>
+        <fullName>No_Associated_Shops</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No Associated Shops</shortDescription>
+        <value>This shop has no associated shops.</value>
+    </labels>
+    <labels>
+        <fullName>No_results</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No results</shortDescription>
+        <value>No results found...</value>
+    </labels>
+    <labels>
+        <fullName>None</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>None</shortDescription>
+        <value>None</value>
+    </labels>
+    <labels>
+        <fullName>Not_Accept</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Not Accept</shortDescription>
+        <value>No</value>
+    </labels>
+    <labels>
+        <fullName>Not_Image</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Not Image</shortDescription>
+        <value>Whoops! That is not an image.</value>
+    </labels>
+    <labels>
+        <fullName>Org_Information</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Org Information</shortDescription>
+        <value>Organisation Info</value>
+    </labels>
+    <labels>
+        <fullName>Original_Name</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Original Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>Parent_Shop</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Parent Shop</shortDescription>
+        <value>Parent Shop</value>
+    </labels>
+    <labels>
+        <fullName>Password_Sent</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Password Sent</shortDescription>
+        <value>Email with password has been sent.</value>
+    </labels>
+    <labels>
+        <fullName>Platform</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Platform</shortDescription>
+        <value>Platform</value>
+    </labels>
+    <labels>
+        <fullName>Poland</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Poland</shortDescription>
+        <value>Poland</value>
+    </labels>
+    <labels>
+        <fullName>Process</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Process</shortDescription>
+        <value>Process</value>
+    </labels>
+    <labels>
+        <fullName>Public_Groups</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Public Groups</shortDescription>
+        <value>Public Groups</value>
+    </labels>
+    <labels>
+        <fullName>Random_shops_header</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Random shops header</shortDescription>
+        <value>Shops we collaborated</value>
+    </labels>
+    <labels>
+        <fullName>Remove</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Remove</shortDescription>
+        <value>Remove</value>
+    </labels>
+    <labels>
+        <fullName>Reset_Password</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Reset Password</shortDescription>
+        <value>Reset Password</value>
+    </labels>
+    <labels>
+        <fullName>Results</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Results</shortDescription>
+        <value>Results</value>
+    </labels>
+    <labels>
+        <fullName>Reverse</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Reverse</shortDescription>
+        <value>Reverse</value>
+    </labels>
+    <labels>
+        <fullName>Save</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Save_image</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save image</shortDescription>
+        <value>Save image</value>
+    </labels>
+    <labels>
+        <fullName>Search</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search</shortDescription>
+        <value>Search</value>
+    </labels>
+    <labels>
+        <fullName>Search_Form</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search Form</shortDescription>
+        <value>Search Form</value>
+    </labels>
+    <labels>
+        <fullName>Search_Results</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search Results</shortDescription>
+        <value>Search Results</value>
+    </labels>
+    <labels>
+        <fullName>Search_Users</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search Users</shortDescription>
+        <value>Search for users</value>
+    </labels>
+    <labels>
+        <fullName>Search_for_Hangars</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search for Hangars</shortDescription>
+        <value>Search for hangars</value>
+    </labels>
+    <labels>
+        <fullName>Search_for_Shop</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Search for Shop</shortDescription>
+        <value>Search For Shop</value>
+    </labels>
+    <labels>
+        <fullName>Select</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select</shortDescription>
+        <value>Select</value>
+    </labels>
+    <labels>
+        <fullName>Select_dates_for_all</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select dates for all</shortDescription>
+        <value>Select dates for all</value>
+    </labels>
+    <labels>
+        <fullName>Select_to_import</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select to import</shortDescription>
+        <value>Select shops to import</value>
+    </labels>
+    <labels>
+        <fullName>Send</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Send</value>
+    </labels>
+    <labels>
+        <fullName>Session_Id</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Session Id</shortDescription>
+        <value>Session Id</value>
+    </labels>
+    <labels>
+        <fullName>Shop</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Shop</shortDescription>
+        <value>Shop</value>
+    </labels>
+    <labels>
+        <fullName>Shop_Management_System</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Shop Management System</shortDescription>
+        <value>Shop Management System</value>
+    </labels>
+    <labels>
+        <fullName>Shops_from_FCC</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Shops from FCC</shortDescription>
+        <value>Shops from Franchise Command Center</value>
+    </labels>
+    <labels>
+        <fullName>Shops_we_collaborate</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Shops we collaborate</shortDescription>
+        <value>Shops we collaborate</value>
+    </labels>
+    <labels>
+        <fullName>Show_Whole_Network</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Show Whole Network</shortDescription>
+        <value>Show whole network</value>
+    </labels>
+    <labels>
+        <fullName>Size_of_Shop</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Size of Shop</shortDescription>
+        <value>Size of shop</value>
+    </labels>
+    <labels>
+        <fullName>Smth_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Smth Error</shortDescription>
+        <value>Something went wrong during saving the shop. Please check your data.</value>
+    </labels>
+    <labels>
+        <fullName>Start_before_End_Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Start before End Error</shortDescription>
+        <value>Start date has to be before end date.</value>
+    </labels>
+    <labels>
+        <fullName>Status</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Status</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>Subject</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Subject</shortDescription>
+        <value>Subject</value>
+    </labels>
+    <labels>
+        <fullName>Success</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>Success_New_Supply</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Success New Supply</shortDescription>
+        <value>Success, we have new supply in database.</value>
+    </labels>
+    <labels>
+        <fullName>UI_Session_Id</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>UI Session Id</shortDescription>
+        <value>UI Session Id</value>
+    </labels>
+    <labels>
+        <fullName>USA</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>USA</shortDescription>
+        <value>USA</value>
+    </labels>
+    <labels>
+        <fullName>Ukraine</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Ukraine</shortDescription>
+        <value>Ukraine</value>
+    </labels>
+    <labels>
+        <fullName>Update</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Update</shortDescription>
+        <value>Update</value>
+    </labels>
+    <labels>
+        <fullName>User_Inactive</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>User_Inactive</shortDescription>
+        <value>To reset password user has to be active.</value>
+    </labels>
+    <labels>
+        <fullName>Username</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Username</shortDescription>
+        <value>Username</value>
+    </labels>
+    <labels>
+        <fullName>View</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View</shortDescription>
+        <value>View</value>
+    </labels>
+    <labels>
+        <fullName>Visualforce_Pages</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Visualforce Pages</shortDescription>
+        <value>Visualforce Pages</value>
+    </labels>
+    <labels>
+        <fullName>Web_Service_Session_Id</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Web Service Session Id</shortDescription>
+        <value>Web Service Session Id</value>
+    </labels>
+    <labels>
+        <fullName>Web_to_lead_notification</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Web to lead notification</shortDescription>
+        <value>Thank you for your contact data. Our team will contact with you soon!</value>
+    </labels>
+    <labels>
+        <fullName>Wholesale</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Wholesale</shortDescription>
+        <value>Wholesale</value>
+    </labels>
+    <labels>
+        <fullName>Wholesale_Map</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Wholesale Map</shortDescription>
+        <value>See Wholesale on Map</value>
+    </labels>
+    <labels>
+        <fullName>Wholesales_from_FCC</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Wholesales from FCC</shortDescription>
+        <value>Wholesales from Franchise Command Center</value>
+    </labels>
+    <labels>
+        <fullName>successfully_created</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>successfully created</shortDescription>
+        <value>successfully created</value>
+    </labels>
+</CustomLabels>
