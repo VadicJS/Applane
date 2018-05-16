@@ -1,0 +1,1796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc190332-e3d0-468c-ad01-885bf7cf6425" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="moduleWorkspaceSettings">
+      <map>
+        <entry key="Developer Org3">
+          <value>
+            <ModuleWorkspaceSettings>
+              <option name="moduleContentsLastModified" value="1526462264652" />
+            </ModuleWorkspaceSettings>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="connectionWorkspaceSettings">
+          <map>
+            <entry key="Developer Org">
+              <value>
+                <ConnectionWorkspaceSettings>
+                  <option name="lastBuildScope" value="MODULE_PLUS_DEPENDENCIES" />
+                  <option name="lastBuildViewToggles">
+                    <map>
+                      <entry key="RETRIEVE">
+                        <value>
+                          <BuildViewToggles>
+                            <option name="showLocalAndServer" value="true" />
+                            <option name="showLocalOnly" value="false" />
+                            <option name="showServerOnly" value="true" />
+                            <option name="showSubscribedOnly" value="false" />
+                          </BuildViewToggles>
+                        </value>
+                      </entry>
+                    </map>
+                  </option>
+                </ConnectionWorkspaceSettings>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="metadataContents">
+          <map>
+            <entry key="Developer Org">
+              <value>
+                <MetadataContents>
+                  <option name="lastPopulated" value="1526462219612" />
+                  <option name="metadataTypes">
+                    <set>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead" />
+                            <option value="SMS_Shop__c" />
+                          </set>
+                        </option>
+                        <option name="name" value="Workflow" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="SMS_Shop__c.Add_year_next_anniversary" />
+                            <option value="SMS_Shop__c.Update_Next_Anniversary" />
+                          </set>
+                        </option>
+                        <option name="name" value="WorkflowFieldUpdate" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="SMS_Shop__c.Sends_email_with_anniversary_info" />
+                            <option value="Lead.Invitation_to_survey" />
+                            <option value="Lead.Marketing_materials_haven_t_been_sent_yet" />
+                          </set>
+                        </option>
+                        <option name="name" value="WorkflowAlert" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="SMS_Shop__c.Set Anniversary" />
+                            <option value="SMS_Shop__c.Anniversary email" />
+                          </set>
+                        </option>
+                        <option name="name" value="WorkflowRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead.Standard_Lead_Duplicate_Rule" />
+                            <option value="Account.Standard_Account_Duplicate_Rule" />
+                            <option value="SMS_Shop__c.SMS_Duplicated_shop" />
+                            <option value="Contact.Standard_Contact_Duplicate_Rule" />
+                          </set>
+                        </option>
+                        <option name="name" value="DuplicateRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Poland_Users" />
+                            <option value="Custom_Group" />
+                            <option value="German_Users" />
+                            <option value="Admins" />
+                          </set>
+                        </option>
+                        <option name="name" value="Group" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="SMSShopTrigger" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexTrigger" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account" />
+                            <option value="Company" />
+                            <option value="Address" />
+                            <option value="Macro" />
+                            <option value="Product" />
+                            <option value="Security" />
+                            <option value="Knowledge" />
+                            <option value="Name" />
+                            <option value="Ideas" />
+                            <option value="Case" />
+                            <option value="FieldService" />
+                            <option value="SocialCustomerService" />
+                            <option value="OmniChannel" />
+                            <option value="Opportunity" />
+                            <option value="Search" />
+                            <option value="FileUploadAndDownloadSecurity" />
+                            <option value="Order" />
+                            <option value="Activities" />
+                            <option value="OrgPreference" />
+                            <option value="BusinessHours" />
+                            <option value="Forecasting" />
+                            <option value="Mobile" />
+                            <option value="Quote" />
+                            <option value="LiveAgent" />
+                            <option value="PersonalJourney" />
+                            <option value="Entitlement" />
+                            <option value="Contract" />
+                            <option value="PathAssistant" />
+                          </set>
+                        </option>
+                        <option name="name" value="Settings" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="DataCloudGeoLocation" />
+                          </set>
+                        </option>
+                        <option name="name" value="CleanDataService" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Country" />
+                          </set>
+                        </option>
+                        <option name="name" value="GlobalValueSet" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Case.Standard" />
+                          </set>
+                        </option>
+                        <option name="name" value="EscalationRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Case" />
+                          </set>
+                        </option>
+                        <option name="name" value="EscalationRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="ChangePassword" />
+                            <option value="SiteTemplate" />
+                            <option value="SMS_ShopSearch" />
+                            <option value="InMaintenance" />
+                            <option value="SMS_UserManagement" />
+                            <option value="StdExceptionTemplate" />
+                            <option value="SMS_ShopCSVDownload" />
+                            <option value="SiteRegister" />
+                            <option value="AnswersHome" />
+                            <option value="SMS_ShopsStandardApi" />
+                            <option value="OrgInformation" />
+                            <option value="SurveyPage" />
+                            <option value="SMS_OrgInformation" />
+                            <option value="SMS_ShopEdit" />
+                            <option value="SurveyManagerPage" />
+                            <option value="SMS_WholesaleEdit" />
+                            <option value="SiteLogin" />
+                            <option value="LightningConnectQuickstart" />
+                            <option value="Unauthorized" />
+                            <option value="SiteRegisterConfirm" />
+                            <option value="UnderConstruction" />
+                            <option value="SMS_ShopsImportCSV" />
+                            <option value="TakeSurvey" />
+                            <option value="Getting_Started_With_Survey_Force" />
+                            <option value="SMS_ShopsExternal" />
+                            <option value="SMS_ShopsRandomPublic" />
+                            <option value="FileNotFound" />
+                            <option value="ForgotPassword" />
+                            <option value="SMS_ShopSearchXLSDownload" />
+                            <option value="Exception" />
+                            <option value="GSurveys" />
+                            <option value="SMS_WholesalesExternal" />
+                            <option value="SMS_ShopSearchCSVDownload" />
+                            <option value="IdeasHome" />
+                            <option value="AccountHierarchyPage" />
+                            <option value="BandwidthExceeded" />
+                            <option value="ForgotPasswordConfirm" />
+                            <option value="MyProfilePage" />
+                            <option value="SMS_ShopView" />
+                            <option value="SMS_ShopSearchXLS" />
+                            <option value="SMS_WholesaleView" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexPage" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Opportunity.Single Client" />
+                          </set>
+                        </option>
+                        <option name="name" value="BusinessProcess" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Metric.Progress" />
+                            <option value="Metric.Completion" />
+                          </set>
+                        </option>
+                        <option name="name" value="RecordType" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account.ObjectHierarchy__Astrea_Object_Hierarchy" />
+                            <option value="Case.ObjectHierarchy__Astrea_Object_Hierarchy" />
+                            <option value="Opportunity.DeliveryStatus" />
+                            <option value="Campaign.ViewCampaignInfluenceReport" />
+                            <option value="Lead.ObjectHierarchy__Astrea_Object_Hierarchy" />
+                            <option value="Case.UpsellCrosssellOpportunity" />
+                            <option value="Account.Billing" />
+                            <option value="Asset.ObjectHierarchy__Astrea_Object_Hierarchy" />
+                            <option value="Contact.ObjectHierarchy__Astrea_Object_Hierarchy" />
+                            <option value="SMS_Shop__c.Shop_Hierarchy" />
+                            <option value="Opportunity.ObjectHierarchy__Astrea_Object_Hierarchy" />
+                          </set>
+                        </option>
+                        <option name="name" value="WebLink" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="SMS_Supply__c.Required_Dates" />
+                            <option value="SMS_Supply__c.Date_Validator" />
+                            <option value="SMS_Shop__c.Polish_Prefix" />
+                          </set>
+                        </option>
+                        <option name="name" value="ValidationRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="DirectorDirectSales" />
+                            <option value="SVPSalesMarketing" />
+                            <option value="MarketingTeam" />
+                            <option value="COO" />
+                            <option value="DirectorChannelSales" />
+                            <option value="InstallationRepairServices" />
+                            <option value="SVPHumanResources" />
+                            <option value="SVPCustomerServiceSupport" />
+                            <option value="VPInternationalSales" />
+                            <option value="CEO" />
+                            <option value="ChannelSalesTeam" />
+                            <option value="EasternSalesTeam" />
+                            <option value="CFO" />
+                            <option value="CustomerSupportInternational" />
+                            <option value="WesternSalesTeam" />
+                            <option value="CustomerSupportNorthAmerica" />
+                            <option value="VPMarketing" />
+                            <option value="VPNorthAmericanSales" />
+                          </set>
+                        </option>
+                        <option name="name" value="Role" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="New" />
+                          </set>
+                        </option>
+                        <option name="name" value="HomePageComponent" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="logo" />
+                          </set>
+                        </option>
+                        <option name="name" value="ContentAsset" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Single_Lead" />
+                          </set>
+                        </option>
+                        <option name="name" value="PathAssistant" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account" />
+                            <option value="Lead" />
+                            <option value="SMS_Shop__c" />
+                            <option value="Contact" />
+                          </set>
+                        </option>
+                        <option name="name" value="MatchingRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead" />
+                            <option value="Case" />
+                          </set>
+                        </option>
+                        <option name="name" value="AssignmentRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="SMS_Shop__c.SMS_Duplicated_shop_matching_rule" />
+                            <option value="Contact.Standard_Contact_Match_Rule_v1_1" />
+                            <option value="Lead.Standard_Lead_Match_Rule_v1_0" />
+                            <option value="Account.Standard_Account_Match_Rule_v1_0" />
+                            <option value="SMS_Shop__c.SMS_Duplicate_shop_matching_rule" />
+                          </set>
+                        </option>
+                        <option name="name" value="MatchingRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Custom%3A Support Profile" />
+                            <option value="Customer Community Plus Login User" />
+                            <option value="Analytics Cloud Integration User" />
+                            <option value="High Volume Customer Portal User" />
+                            <option value="AP_Executive" />
+                            <option value="Cross Org Data Proxy User" />
+                            <option value="Force%2Ecom - Free User" />
+                            <option value="PlatformPortal" />
+                            <option value="External Identity User" />
+                            <option value="Force%2Ecom - App Subscription User" />
+                            <option value="Chatter External User" />
+                            <option value="Standard" />
+                            <option value="Manager" />
+                            <option value="Identity User" />
+                            <option value="Custom%3A Sales Profile" />
+                            <option value="AP_Service" />
+                            <option value="Partner Community Login User" />
+                            <option value="ContractManager" />
+                            <option value="Customer Community Plus User" />
+                            <option value="Partner Community User" />
+                            <option value="AP_Client" />
+                            <option value="StandardAul" />
+                            <option value="Shops Profile" />
+                            <option value="Gold Partner User" />
+                            <option value="Chatter Moderator User" />
+                            <option value="SolutionManager" />
+                            <option value="ReadOnly" />
+                            <option value="Chatter Free User" />
+                            <option value="Shop Assistant" />
+                            <option value="AP_Sales" />
+                            <option value="Guest" />
+                            <option value="HighVolumePortal" />
+                            <option value="MarketingProfile" />
+                            <option value="Customer Community Login User" />
+                            <option value="Customer Portal Manager Standard" />
+                            <option value="Analytics Cloud Security User" />
+                            <option value="Admin" />
+                            <option value="Silver Partner User" />
+                            <option value="Work%2Ecom Only User" />
+                            <option value="Partner App Subscription User" />
+                            <option value="Authenticated Website" />
+                            <option value="Customer Community User" />
+                            <option value="Custom%3A Marketing Profile" />
+                            <option value="Customer Portal Manager Custom" />
+                          </set>
+                        </option>
+                        <option name="name" value="Profile" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="ApexDevNet" />
+                            <option value="rest_service" />
+                            <option value="google_maps_api" />
+                            <option value="soap_login" />
+                          </set>
+                        </option>
+                        <option name="name" value="RemoteSiteSetting" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="jQUery_Migrate" />
+                            <option value="SurveyForce_SLDS" />
+                            <option value="SLDS090" />
+                            <option value="loader" />
+                            <option value="SurveyForce" />
+                            <option value="SMS_View" />
+                            <option value="LeafletMarkerCluster" />
+                            <option value="AP_leafletMap" />
+                            <option value="JTreeView" />
+                            <option value="iEditFixed" />
+                            <option value="SMS_Logo" />
+                            <option value="jQuery" />
+                            <option value="SurveyForce_UserGuide" />
+                            <option value="jQuery_UI" />
+                            <option value="SurveyForce_jquery_ui" />
+                            <option value="SurveyForce_jquery" />
+                            <option value="SiteSamples" />
+                            <option value="iEditVF" />
+                            <option value="SurveyForce_svg4everybody" />
+                          </set>
+                        </option>
+                        <option name="name" value="StaticResource" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead_Process-17" />
+                            <option value="Lead_Process-16" />
+                            <option value="Lead_Process-15" />
+                            <option value="Lead_Process-14" />
+                            <option value="Lead_Process-13" />
+                            <option value="Lead_Process-12" />
+                            <option value="Lead_Process-11" />
+                            <option value="Lead_Process-10" />
+                            <option value="Lead_Process-19" />
+                            <option value="Lead_Process-18" />
+                            <option value="Lead_Process-2" />
+                            <option value="Lead_Process-1" />
+                            <option value="Lead_Process-4" />
+                            <option value="Lead_Process-3" />
+                            <option value="Lead_Process-6" />
+                            <option value="Lead_Process-5" />
+                            <option value="Lead_Process-8" />
+                            <option value="Lead_Process-7" />
+                            <option value="Lead_Process-20" />
+                            <option value="Lead_Process-9" />
+                            <option value="Lead_Process-28" />
+                            <option value="Lead_Process-27" />
+                            <option value="Lead_Process-26" />
+                            <option value="Lead_Process-25" />
+                            <option value="Lead_Process-24" />
+                            <option value="Lead_Created-1" />
+                            <option value="Lead_Process-23" />
+                            <option value="Lead_Process-22" />
+                            <option value="Lead_Process-21" />
+                          </set>
+                        </option>
+                        <option name="name" value="Flow" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="SMS_Setting__c-en_US" />
+                            <option value="SMS_Shop__c-en_US" />
+                            <option value="SurveyQuestionResponse__c-en_US" />
+                            <option value="SMS_Wholesale__c-en_US" />
+                            <option value="Survey_Question__c-en_US" />
+                            <option value="Survey__c-en_US" />
+                            <option value="SurveyTaker__c-en_US" />
+                            <option value="SMS_Trigger_Exceptions__c-en_US" />
+                            <option value="AP_Hangar__c-en_US" />
+                            <option value="instance__c-en_US" />
+                            <option value="SMS_Supply__c-en_US" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomObjectTranslation" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="LABS_SF_Learn_More" />
+                            <option value="Delete" />
+                            <option value="AP_Delete_Airplane_Confirm" />
+                            <option value="Login_History" />
+                            <option value="AP_Number_Of_Seats" />
+                            <option value="Confirm_Delete_Shop" />
+                            <option value="Csv_Error" />
+                            <option value="LABS_SF_please_visit" />
+                            <option value="LABS_SF_Anonymous" />
+                            <option value="LABS_SF_Resources" />
+                            <option value="Import" />
+                            <option value="Address" />
+                            <option value="Reverse" />
+                            <option value="Platform" />
+                            <option value="LABS_SF_To_submit_ideas_or_issues" />
+                            <option value="LABS_SF_SELECTTYPE" />
+                            <option value="LABS_SF_For_community_assistance_with_Survey_Force" />
+                            <option value="Edit" />
+                            <option value="AP_Search_For_Airplanes" />
+                            <option value="Remove" />
+                            <option value="Search_Users" />
+                            <option value="Success" />
+                            <option value="LABS_SF_Salesforce_Answers" />
+                            <option value="AP_Takeoff_Field_Length" />
+                            <option value="AP_Airplane_Save_Error" />
+                            <option value="Network" />
+                            <option value="Network_Batch_Email_Subject" />
+                            <option value="Cash_Desk_Number" />
+                            <option value="LABS_SF_Chatter" />
+                            <option value="LABS_SF_View_Results_In_New_Window" />
+                            <option value="LABS_SF_Survey_Force_is_unsupported" />
+                            <option value="Reset_Password" />
+                            <option value="Status" />
+                            <option value="LABS_SF_MakeANewSurvey" />
+                            <option value="Not_Accept" />
+                            <option value="IP" />
+                            <option value="Ukraine" />
+                            <option value="LABS_SF_Results" />
+                            <option value="Web_to_lead_notification" />
+                            <option value="LABS_SF_Chatter_Link" />
+                            <option value="LABS_SF_Edit" />
+                            <option value="Create_New_Shop" />
+                            <option value="AP_Main_Image" />
+                            <option value="successfully_created" />
+                            <option value="Shop" />
+                            <option value="Childs_Shops_For" />
+                            <option value="Details" />
+                            <option value="Activate" />
+                            <option value="LABS_SF_Answer_as" />
+                            <option value="Country" />
+                            <option value="LABS_SF_SurveyForceIsOpenSource" />
+                            <option value="Germany" />
+                            <option value="LABS_SF_View_Sample_Survey" />
+                            <option value="Browser" />
+                            <option value="AP_Gallery" />
+                            <option value="LABS_SF_HeaderAndThankYou" />
+                            <option value="Cancel" />
+                            <option value="AP_Hangar_Details" />
+                            <option value="Password_Sent" />
+                            <option value="AP_Property_Number" />
+                            <option value="Confirm" />
+                            <option value="Error_request" />
+                            <option value="Confirm_Delete_Wholesale" />
+                            <option value="Shop_Management_System" />
+                            <option value="Save_image" />
+                            <option value="Confirm_Delete" />
+                            <option value="LABS_SF_You_have_already_taken_this_survey" />
+                            <option value="AP_Select_Country" />
+                            <option value="LABS_SF_Required" />
+                            <option value="Email_Required" />
+                            <option value="Image_too_big" />
+                            <option value="No_Associated_Shops" />
+                            <option value="Poland" />
+                            <option value="Deactivate" />
+                            <option value="Size_of_Shop" />
+                            <option value="AP_Street" />
+                            <option value="Download" />
+                            <option value="Duplicated_Record" />
+                            <option value="USA" />
+                            <option value="AP_Useful_Load" />
+                            <option value="LABS_SF_Make_a_Sample_Survey" />
+                            <option value="LABS_SF_Share" />
+                            <option value="Import_Shops" />
+                            <option value="Start_before_End_Error" />
+                            <option value="AP_Main_Engine" />
+                            <option value="LABS_SF_X2_External_Setup_Site" />
+                            <option value="Contract_Start_Date" />
+                            <option value="LABS_SF_Survey_Force_on_Github" />
+                            <option value="Results" />
+                            <option value="Smth_Error" />
+                            <option value="Success_New_Supply" />
+                            <option value="Search_Results" />
+                            <option value="AP_Contact" />
+                            <option value="Select" />
+                            <option value="LABS_SF_External_Please_Create_Site" />
+                            <option value="Session_Id" />
+                            <option value="None" />
+                            <option value="LABS_SF_Your_next_few_steps_are_easy" />
+                            <option value="All" />
+                            <option value="Add_new_contract" />
+                            <option value="Email" />
+                            <option value="Visualforce_Pages" />
+                            <option value="Shops_we_collaborate" />
+                            <option value="Public_Groups" />
+                            <option value="Imported" />
+                            <option value="Process" />
+                            <option value="LABS_SF_Sharing_Options" />
+                            <option value="Update" />
+                            <option value="Not_Image" />
+                            <option value="AP_Number_Of_Engines" />
+                            <option value="Send" />
+                            <option value="Name" />
+                            <option value="Date_Overlapping" />
+                            <option value="LABS_SF_Welcome_to_Survey_Force" />
+                            <option value="LABS_SF_Email_Link_Anonymous" />
+                            <option value="Login_Date" />
+                            <option value="AP_Airplane_Saved_Message" />
+                            <option value="Search" />
+                            <option value="Wholesale_Map" />
+                            <option value="Shops_from_FCC" />
+                            <option value="Show_Whole_Network" />
+                            <option value="Basic_Info" />
+                            <option value="No_results" />
+                            <option value="Search_for_Hangars" />
+                            <option value="AP_Product_Family" />
+                            <option value="Web_Service_Session_Id" />
+                            <option value="LABS_SF_SaveOrder" />
+                            <option value="LABS_SF_X1_Create_a_sample_survey" />
+                            <option value="Accept" />
+                            <option value="LABS_SF_Installation_Guide" />
+                            <option value="Add_Contract" />
+                            <option value="Original_Name" />
+                            <option value="LABS_SF_Save" />
+                            <option value="User_Inactive" />
+                            <option value="For_contact" />
+                            <option value="City" />
+                            <option value="Wholesales_from_FCC" />
+                            <option value="AP_Saved" />
+                            <option value="Select_to_import" />
+                            <option value="LABS_SF_Question" />
+                            <option value="LABS_SF_X3_Start_creating_your_first_survey" />
+                            <option value="Active" />
+                            <option value="Parent_Shop" />
+                            <option value="AP_Length" />
+                            <option value="LABS_SF_SubmitSurvey" />
+                            <option value="Save" />
+                            <option value="License_No" />
+                            <option value="LABS_SF_Next_Steps" />
+                            <option value="Add_Wholesale" />
+                            <option value="Action" />
+                            <option value="AP_Drive_Type" />
+                            <option value="UI_Session_Id" />
+                            <option value="LABS_SF_RequiredQuestion" />
+                            <option value="Search_Form" />
+                            <option value="Org_Information" />
+                            <option value="Confirm_Delete_Image" />
+                            <option value="Add_contracts" />
+                            <option value="Clear" />
+                            <option value="LABS_SF_AddQuestion" />
+                            <option value="Address_not_Found" />
+                            <option value="AP_Capacity" />
+                            <option value="Create" />
+                            <option value="Inactive" />
+                            <option value="LABS_SF_User_Guide" />
+                            <option value="AP_Maximum_Range" />
+                            <option value="LABS_SF_Community" />
+                            <option value="LABS_SF_Share_My_Survey" />
+                            <option value="Body" />
+                            <option value="LABS_SF_Email_Link_w_Contact_Merge" />
+                            <option value="LABS_SF_SelectQuestionType" />
+                            <option value="Contract_End_Date" />
+                            <option value="Search_for_Shop" />
+                            <option value="LABS_SF_Email_Link_w_Contact_Case_Merge" />
+                            <option value="AP_Error" />
+                            <option value="Random_shops_header" />
+                            <option value="LABS_SF_Survey_Submitted_Thank_you" />
+                            <option value="AP_Offer" />
+                            <option value="LABS_SF_Cancel" />
+                            <option value="Select_dates_for_all" />
+                            <option value="AP_Phone" />
+                            <option value="View" />
+                            <option value="Subject" />
+                            <option value="LABS_SF_PleaseEnterTheList" />
+                            <option value="AP_Wingspan" />
+                            <option value="AP_Maximum_Cruise_Speed" />
+                            <option value="Username" />
+                            <option value="LABS_SF_Getting_Help" />
+                            <option value="Fill_dates" />
+                            <option value="LABS_SF_MakeNewSurvey" />
+                            <option value="Wholesale" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomLabel" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="CustomLabels" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomLabels" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="LexInputFieldCompCtrl_Test" />
+                            <option value="SMS_ShopsExternalController" />
+                            <option value="ViewSurveyController" />
+                            <option value="AccountHierarchyTestData" />
+                            <option value="viewShareSurveyComponentController" />
+                            <option value="SMS_ShopViewController" />
+                            <option value="SurveyAndQuestionController_Test" />
+                            <option value="ForgotPasswordControllerTest" />
+                            <option value="SiteRegisterControllerTest" />
+                            <option value="Utilities" />
+                            <option value="soapSforceComSchemasClassSmsShopso" />
+                            <option value="GettingStartedController_Test" />
+                            <option value="SMS_ShopsStandardApiCallout" />
+                            <option value="SMS_WholesalesExternalCalloutTest" />
+                            <option value="MyProfilePageController" />
+                            <option value="GSurveysController" />
+                            <option value="LexInputFieldCompCtrl" />
+                            <option value="SMS_ShopSearchController" />
+                            <option value="LightningConnectQuickstart" />
+                            <option value="SMS_ShopCSVWrapper" />
+                            <option value="ViewSurveyController_Test" />
+                            <option value="TestLightningConnectQuickstart" />
+                            <option value="SMS_ShopSearchingController" />
+                            <option value="SMS_WholesaleRestWebService" />
+                            <option value="Message_Test" />
+                            <option value="ChangePasswordControllerTest" />
+                            <option value="viewShareSurveyComponentController_Test" />
+                            <option value="SMS_FCC_ShopSoapUtil" />
+                            <option value="SMS_FCC_ShopSoap" />
+                            <option value="SMS_ShopEditController" />
+                            <option value="AccountStructure" />
+                            <option value="SMS_ShopSOAPWebService" />
+                            <option value="ForgotPasswordController" />
+                            <option value="Utilities_Test" />
+                            <option value="SurveyManagerController_Test" />
+                            <option value="GSurveysController_Test" />
+                            <option value="SMS_Util" />
+                            <option value="SMS_WholesalesExternalControllerTest" />
+                            <option value="SiteRegisterController" />
+                            <option value="SurveyAndQuestionController" />
+                            <option value="SurveySitesUtil" />
+                            <option value="AP_airplaneDataFormController" />
+                            <option value="SMS_UserManagementController" />
+                            <option value="SMS_ShopRestWebServiceTest" />
+                            <option value="SMS_OrgInformationController" />
+                            <option value="SFQuestion" />
+                            <option value="SMS_ShopSearchUtils" />
+                            <option value="SMS_RandomShopsController" />
+                            <option value="SurveyTestingUtil" />
+                            <option value="ReportFinderUtil" />
+                            <option value="SMS_WholesaleViewController" />
+                            <option value="SMS_ShopsRandomPublicController" />
+                            <option value="ContactsTodayController" />
+                            <option value="Message" />
+                            <option value="AsyncSoapSforceComSchemasClassSmsShopso" />
+                            <option value="AsyncSMS_FCC_ShopSoap" />
+                            <option value="AP_HangarsSearchController" />
+                            <option value="SiteLoginControllerTest" />
+                            <option value="SMS_SingleRequestMock" />
+                            <option value="testpagincontroller" />
+                            <option value="SMS_ShopsImportCSVController" />
+                            <option value="SMS_ShopEmailBatchScheduler" />
+                            <option value="SMS_MultiRequestMock" />
+                            <option value="InlineAcountHerachy_TestUtilities" />
+                            <option value="soapSforceComSchemasClassSmsUtil" />
+                            <option value="SMS_PopUpWindow" />
+                            <option value="SMS_ShopRestWebService" />
+                            <option value="viewSurveyResultsComponentController" />
+                            <option value="ContactsTodayController_test" />
+                            <option value="SMS_ShopsStandardApiController" />
+                            <option value="MyProfilePageControllerTest" />
+                            <option value="SMS_WholesalesExternalController" />
+                            <option value="AP_RecordGalleryController" />
+                            <option value="SMS_ShopEmailBatch" />
+                            <option value="SMS_WholesalesExternalCallout" />
+                            <option value="GettingStartedController" />
+                            <option value="SMS_ShopPagination" />
+                            <option value="SMS_ShopImportCSVWrapper" />
+                            <option value="SMS_ShopViewUtils" />
+                            <option value="AP_Util" />
+                            <option value="SiteLoginController" />
+                            <option value="testAccountHierarchy" />
+                            <option value="SurveyManagerController" />
+                            <option value="ChangePasswordController" />
+                            <option value="SMS_ShopsExternalControllerTest" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexClass" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="SiteFooter" />
+                            <option value="SMS_sldsSpinner" />
+                            <option value="hangarsSearch" />
+                            <option value="uiMessage" />
+                            <option value="SMS_loadIcon" />
+                            <option value="SiteLogin" />
+                            <option value="SitePoweredBy" />
+                            <option value="viewShareSurveyComponent" />
+                            <option value="viewSurveyResultsComponent" />
+                            <option value="LexInputField" />
+                            <option value="SiteHeader" />
+                            <option value="ShopsHierarchyTree" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexComponent" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account-Account %28Sales%29 Layout" />
+                            <option value="Contact-Contact %28Support%29 Layout" />
+                            <option value="Product2-Product Layout" />
+                            <option value="AP_Hangar__c-Hangar Layout" />
+                            <option value="Lead-Lead Layout" />
+                            <option value="Contact-Contact Layout" />
+                            <option value="Case-Case %28Sales%29 Layout" />
+                            <option value="CollaborationGroup-Group Layout" />
+                            <option value="Lead-Lead %28Support%29 Layout" />
+                            <option value="DandBCompany-D%26B Company Layout" />
+                            <option value="AssetRelationship-Asset Relationship Layout" />
+                            <option value="Case-Case %28Support%29 Layout" />
+                            <option value="Macro-Macro Layout" />
+                            <option value="Order-Order Layout" />
+                            <option value="ScorecardMetric-Scorecard Metric Layout" />
+                            <option value="UserProvisioningRequest-User Provisioning Request Layout" />
+                            <option value="Solution-Solution Layout" />
+                            <option value="Event-Event Layout" />
+                            <option value="Pricebook2-Price Book Layout" />
+                            <option value="UserProvisioningLog-User Provisioning Log Layout" />
+                            <option value="UserProvAccount-User Provisioning Account Layout" />
+                            <option value="Contact-Contact %28Marketing%29 Layout" />
+                            <option value="Task-Task Layout" />
+                            <option value="SMS_Supply__c-Supply Layout" />
+                            <option value="SurveyQuestionResponse__c-Survey Question Answer Layout" />
+                            <option value="Opportunity-Opportunity Layout" />
+                            <option value="Asset-Asset Layout" />
+                            <option value="DuplicateRecordSet-Duplicate Record Set Layout" />
+                            <option value="OrderItem-Order Product Layout" />
+                            <option value="SurveyTaker__c-SurveyTaker Layout" />
+                            <option value="SMS_Shop__c-Shop Layout" />
+                            <option value="OpportunityLineItem-Opportunity Product Layout" />
+                            <option value="SMS_Supply__c-Wholesale Layout" />
+                            <option value="Case-Case Layout" />
+                            <option value="Contract-Contract Layout" />
+                            <option value="Account-Account Layout" />
+                            <option value="Campaign-Campaign Layout" />
+                            <option value="UserAlt-User Profile Layout" />
+                            <option value="ScorecardAssociation-Scorecard Association Layout" />
+                            <option value="Opportunity-Opportunity %28Sales%29 Layout" />
+                            <option value="Survey_Question__c-Survey Question Layout" />
+                            <option value="Survey__c-Survey Layout" />
+                            <option value="SocialPersona-Social Persona Layout" />
+                            <option value="Scorecard-Scorecard Layout" />
+                            <option value="Case-Case %28Marketing%29 Layout" />
+                            <option value="PricebookEntry-Price Book Entry Layout" />
+                            <option value="CaseClose-Close Case Layout" />
+                            <option value="FeedItem-Feed Item Layout" />
+                            <option value="Idea-Idea Layout" />
+                            <option value="SMS_Shop__c-ShopEdit" />
+                            <option value="ContentVersion-Content Version Layout" />
+                            <option value="Opportunity-Opportunity %28Support%29 Layout" />
+                            <option value="Global-Global Layout" />
+                            <option value="Account-Account %28Marketing%29 Layout" />
+                            <option value="Lead-Lead %28Sales%29 Layout" />
+                            <option value="EmailMessage-Email Message Layout" />
+                            <option value="SocialPost-Social Post Layout" />
+                            <option value="Account-Account %28Support%29 Layout" />
+                            <option value="CampaignMember-Campaign Member Page Layout" />
+                            <option value="QuickText-Quick Text Layout" />
+                            <option value="User-User Layout" />
+                            <option value="Contact-Contact %28Sales%29 Layout" />
+                            <option value="Lead-Lead %28Marketing%29 Layout" />
+                            <option value="SMS_Wholesale__c-Wholesale Layout" />
+                            <option value="Opportunity-Opportunity %28Marketing%29 Layout" />
+                          </set>
+                        </option>
+                        <option name="name" value="Layout" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account" />
+                            <option value="CollaborationGroup" />
+                            <option value="Task" />
+                            <option value="ForecastingCategoryMapping" />
+                            <option value="OpportunityLineItem" />
+                            <option value="CaseContactRole" />
+                            <option value="Activity" />
+                            <option value="Survey__c" />
+                            <option value="Document" />
+                            <option value="ContactCleanInfo" />
+                            <option value="SMS_Wholesale__c" />
+                            <option value="ScorecardMetric" />
+                            <option value="PushTopic" />
+                            <option value="FeedItem" />
+                            <option value="ContractContactRole" />
+                            <option value="ExchangeUserMapping" />
+                            <option value="SocialPersona" />
+                            <option value="Asset" />
+                            <option value="CampaignMember" />
+                            <option value="Order" />
+                            <option value="CollaborationGroupMember" />
+                            <option value="AccountContactRole" />
+                            <option value="SurveyQuestionResponse__c" />
+                            <option value="StreamingChannel" />
+                            <option value="EmailMessage" />
+                            <option value="Pricebook2" />
+                            <option value="AccountCleanInfo" />
+                            <option value="UserProvisioningRequest" />
+                            <option value="OrgDeleteRequest" />
+                            <option value="PricebookEntry" />
+                            <option value="LeadCleanInfo" />
+                            <option value="Campaign" />
+                            <option value="Idea" />
+                            <option value="ScorecardAssociation" />
+                            <option value="Survey_Question__c" />
+                            <option value="Contract" />
+                            <option value="PartnerRole" />
+                            <option value="OpportunityCompetitor" />
+                            <option value="MacroAction" />
+                            <option value="Site" />
+                            <option value="User" />
+                            <option value="Product2" />
+                            <option value="Macro" />
+                            <option value="SMS_Setting__c" />
+                            <option value="MacroInstruction" />
+                            <option value="DuplicateRecordItem" />
+                            <option value="SMS_Shop__c" />
+                            <option value="Case" />
+                            <option value="ContentVersion" />
+                            <option value="Opportunity" />
+                            <option value="Lead" />
+                            <option value="DuplicateRecordSet" />
+                            <option value="SMS_Trigger_Exceptions__c" />
+                            <option value="Scorecard" />
+                            <option value="Topic" />
+                            <option value="Solution" />
+                            <option value="AssetRelationship" />
+                            <option value="QuickText" />
+                            <option value="DandBCompany" />
+                            <option value="SMS_Supply__c" />
+                            <option value="OpportunityContactRole" />
+                            <option value="SurveyTaker__c" />
+                            <option value="Contact" />
+                            <option value="AP_Hangar__c" />
+                            <option value="OrderItem" />
+                            <option value="AssistantProgress" />
+                            <option value="instance__c" />
+                            <option value="Event" />
+                            <option value="TopicAssignment" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomObject" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Product2.Maximum_Cruise_Speed__c" />
+                            <option value="SMS_Trigger_Exceptions__c.SMSShopTrigger__c" />
+                            <option value="Survey_Question__c.Survey__c" />
+                            <option value="SMS_Shop__c.Cash_Desk_no__c" />
+                            <option value="Account.NumberofLocations__c" />
+                            <option value="SurveyQuestionResponse__c.Survey_Question__c" />
+                            <option value="Opportunity.OrderNumber__c" />
+                            <option value="Survey__c.URL__c" />
+                            <option value="SMS_Shop__c.House_Number__c" />
+                            <option value="SMS_Wholesale__c.Street__c" />
+                            <option value="SurveyTaker__c.Case__c" />
+                            <option value="Case.PotentialLiability__c" />
+                            <option value="AP_Hangar__c.Phone__c" />
+                            <option value="Survey_Question__c.Type__c" />
+                            <option value="Lead.Lead_Url__c" />
+                            <option value="SurveyTaker__c.Contact__c" />
+                            <option value="SMS_Shop__c.Email__c" />
+                            <option value="Survey_Question__c.OrderNumber__c" />
+                            <option value="Product2.Maximum_Range__c" />
+                            <option value="Opportunity.DeliveryInstallationStatus__c" />
+                            <option value="AP_Hangar__c.Location__c" />
+                            <option value="SMS_Wholesale__c.House_Number__c" />
+                            <option value="Goal.OrigGoalId__c" />
+                            <option value="Product2.Takeoff_field_length__c" />
+                            <option value="SMS_Supply__c.Contract_End_Date__c" />
+                            <option value="SurveyTaker__c.Survey__c" />
+                            <option value="Account.SLA__c" />
+                            <option value="Survey_Question__c.Required__c" />
+                            <option value="Product2.Number_of_engines__c" />
+                            <option value="AP_Hangar__c.Airplanes__c" />
+                            <option value="Survey__c.thankYouText__c" />
+                            <option value="SMS_Supply__c.Shop__c" />
+                            <option value="Survey__c.Thank_You_Text__c" />
+                            <option value="Opportunity.CurrentGenerators__c" />
+                            <option value="Lead.Link__c" />
+                            <option value="SMS_Shop__c.Previous_Name__c" />
+                            <option value="SMS_Shop__c.Country__c" />
+                            <option value="SurveyQuestionResponse__c.of_Time_Question_was_Responded_to__c" />
+                            <option value="Lead.ProductInterest__c" />
+                            <option value="Lead.NumberofLocations__c" />
+                            <option value="Case.Product__c" />
+                            <option value="Case.SLAViolation__c" />
+                            <option value="Lead.Primary__c" />
+                            <option value="SurveyTaker__c.User__c" />
+                            <option value="Product2.Main_image__c" />
+                            <option value="Lead.CurrentGenerators__c" />
+                            <option value="Opportunity.MainCompetitors__c" />
+                            <option value="SMS_Wholesale__c.City__c" />
+                            <option value="Account.UpsellOpportunity__c" />
+                            <option value="Account.SLASerialNumber__c" />
+                            <option value="Survey__c.Survey_Container_CSS__c" />
+                            <option value="SMS_Shop__c.Size_of_Shop__c" />
+                            <option value="Account.CustomerPriority__c" />
+                            <option value="SMS_Wholesale__c.Phone__c" />
+                            <option value="Product2.Number_of_seats__c" />
+                            <option value="AP_Hangar__c.City__c" />
+                            <option value="Case.EngineeringReqNumber__c" />
+                            <option value="Metric.OrigMetricId__c" />
+                            <option value="SMS_Shop__c.Parent_Shop__c" />
+                            <option value="Account.SLAExpirationDate__c" />
+                            <option value="AP_Hangar__c.Country__c" />
+                            <option value="SMS_Wholesale__c.Country__c" />
+                            <option value="SMS_Wholesale__c.Website__c" />
+                            <option value="SMS_Shop__c.Next_Anniversary__c" />
+                            <option value="Survey_Question__c.Total_Responses__c" />
+                            <option value="User.Country__c" />
+                            <option value="Account.Customer_ID__c" />
+                            <option value="Survey__c.thankYouLink__c" />
+                            <option value="Survey__c.Submit_Response__c" />
+                            <option value="Survey_Question__c.Question__c" />
+                            <option value="Product2.Wingspan__c" />
+                            <option value="AP_Hangar__c.Street__c" />
+                            <option value="Opportunity.TrackingNumber__c" />
+                            <option value="Product2.Main_Engine__c" />
+                            <option value="Account.Active__c" />
+                            <option value="SMS_Wholesale__c.Email__c" />
+                            <option value="SMS_Shop__c.LicenseNo__c" />
+                            <option value="SMS_Shop__c.Street__c" />
+                            <option value="Contact.Level__c" />
+                            <option value="Product2.Length__c" />
+                            <option value="SMS_Supply__c.Contract_Start_Date__c" />
+                            <option value="SMS_Supply__c.Wholesale__c" />
+                            <option value="SurveyQuestionResponse__c.Response__c" />
+                            <option value="Lead.SICCode__c" />
+                            <option value="SMS_Shop__c.Phone__c" />
+                            <option value="AP_Hangar__c.Capacity__c" />
+                            <option value="Contact.Languages__c" />
+                            <option value="AP_Hangar__c.Property_number__c" />
+                            <option value="SurveyTaker__c.Taken__c" />
+                            <option value="SMS_Setting__c.value__c" />
+                            <option value="SurveyQuestionResponse__c.SurveyTaker__c" />
+                            <option value="Product2.Drive_Type__c" />
+                            <option value="instance__c.base_url__c" />
+                            <option value="Survey__c.Hide_Survey_Name__c" />
+                            <option value="Survey__c.Survey_Header__c" />
+                            <option value="Survey_Question__c.Choices__c" />
+                            <option value="Product2.Useful_Load__c" />
+                            <option value="SMS_Shop__c.City__c" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomField" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Order.AllActivatedOrders" />
+                            <option value="SMS_Supply__c.All" />
+                            <option value="Opportunity.NewThisWeek" />
+                            <option value="Case.AllOpenCases" />
+                            <option value="Order.AllDraftOrders" />
+                            <option value="Case.MyCases" />
+                            <option value="User.ActiveUsers" />
+                            <option value="Order.AllOrders" />
+                            <option value="Scorecard.MyScorecards" />
+                            <option value="Opportunity.ClosingNextMonth" />
+                            <option value="Contact.AllContacts" />
+                            <option value="Case.MyOpenCases" />
+                            <option value="Opportunity.Default_Opportunity_Pipeline" />
+                            <option value="Opportunity.Private" />
+                            <option value="Contract.AllContracts" />
+                            <option value="SMS_Wholesale__c.All" />
+                            <option value="Contract.MyActivatedContracts" />
+                            <option value="Contract.AllDraftContracts" />
+                            <option value="WorkFeedbackRequest.AboutTopics" />
+                            <option value="Contact.NewLastWeek" />
+                            <option value="SocialPersona.AllSocialPersonas" />
+                            <option value="User.AllUsers" />
+                            <option value="Contract.MyDraftContracts" />
+                            <option value="Survey__c.standard_view" />
+                            <option value="Product2.Airplane_view" />
+                            <option value="Solution.AllUnreviewedSolutions" />
+                            <option value="Activity.UpcomingEvents" />
+                            <option value="Account.NewLastWeek" />
+                            <option value="SMS_Shop__c.All" />
+                            <option value="Account.MyAccounts" />
+                            <option value="Opportunity.AllOpportunities" />
+                            <option value="Contact.BirthdaysThisMonth" />
+                            <option value="Opportunity.ClosingThisMonth" />
+                            <option value="Account.AllAccounts" />
+                            <option value="CollaborationGroup.All_ChatterGroups" />
+                            <option value="Contact.NewThisWeek" />
+                            <option value="Activity.AllActivities" />
+                            <option value="AP_Hangar__c.All" />
+                            <option value="Opportunity.NewLastWeek" />
+                            <option value="Asset.AllAssets" />
+                            <option value="User.AdminUsers" />
+                            <option value="Scorecard.AllScorecards" />
+                            <option value="Campaign.MyActiveCampaigns" />
+                            <option value="Opportunity.MyOpportunities" />
+                            <option value="Product2.AllProducts" />
+                            <option value="Campaign.AllActiveCampaigns" />
+                            <option value="Contact.MyContacts" />
+                            <option value="Activity.TodaysTasks" />
+                            <option value="Opportunity.Won" />
+                            <option value="Case.AllClosedCases" />
+                            <option value="Survey_Question__c.All" />
+                            <option value="Solution.AllReviewedSolutions" />
+                            <option value="Account.PlatinumandGoldSLACustomers" />
+                            <option value="Contract.MyInApprovalContracts" />
+                            <option value="Activity.MyActivities" />
+                            <option value="SurveyTaker__c.All" />
+                            <option value="Contract.AllInApprovalContracts" />
+                            <option value="WorkFeedbackTemplate.All" />
+                            <option value="Lead.AllOpenLeads" />
+                            <option value="Account.NewThisWeek" />
+                            <option value="WorkFeedbackRequest.All" />
+                            <option value="Lead.ViewCustom1" />
+                            <option value="Idea.Ideas_Last_7_Days" />
+                            <option value="Lead.ViewCustom2" />
+                            <option value="Contract.AllActivatedContracts" />
+                          </set>
+                        </option>
+                        <option name="name" value="ListView" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account.ex" />
+                          </set>
+                        </option>
+                        <option name="name" value="FieldSet" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Internal Zone" />
+                          </set>
+                        </option>
+                        <option name="name" value="Community" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Order" />
+                            <option value="Account" />
+                            <option value="User" />
+                            <option value="SMS_Setting__c" />
+                            <option value="Survey__c" />
+                            <option value="SMS_Shop__c" />
+                            <option value="SurveyTaker__c" />
+                            <option value="Case" />
+                            <option value="Contact" />
+                            <option value="SMS_Wholesale__c" />
+                            <option value="AP_Hangar__c" />
+                            <option value="Campaign" />
+                            <option value="Opportunity" />
+                            <option value="Lead" />
+                            <option value="instance__c" />
+                            <option value="Asset" />
+                            <option value="SMS_Trigger_Exceptions__c" />
+                          </set>
+                        </option>
+                        <option name="name" value="SharingRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="DE Default" />
+                          </set>
+                        </option>
+                        <option name="name" value="HomePageLayout" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="SMS_Shop__c.PL_Users" />
+                            <option value="SMS_Shop__c.DE_Users" />
+                          </set>
+                        </option>
+                        <option name="name" value="SharingCriteriaRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="sf_chttr_apps" />
+                            <option value="ObjectHierarchy" />
+                            <option value="sf_com_apps" />
+                          </set>
+                        </option>
+                        <option name="name" value="InstalledPackage" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead.Standard" />
+                            <option value="Case.Standard" />
+                          </set>
+                        </option>
+                        <option name="name" value="AssignmentRule" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="standard__Sales" />
+                            <option value="standard__LightningService" />
+                            <option value="standard__ServiceConsole" />
+                            <option value="Shop_Management_System" />
+                            <option value="standard__Community" />
+                            <option value="standard__AppLauncher" />
+                            <option value="External_Orders" />
+                            <option value="standard__Chatter" />
+                            <option value="standard__Platform" />
+                            <option value="standard__Service" />
+                            <option value="standard__LightningSales" />
+                            <option value="Survey_Force" />
+                            <option value="standard__Content" />
+                            <option value="standard__Marketing" />
+                            <option value="Applane" />
+                            <option value="standard__Sites" />
+                            <option value="standard__LightningSalesConsole" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomApplication" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="standard-Macro" />
+                            <option value="standard-Case" />
+                            <option value="External_Wholesales" />
+                            <option value="standard-Solution" />
+                            <option value="standard-ContentSubscriptions" />
+                            <option value="Survey__c" />
+                            <option value="External_Shops" />
+                            <option value="SMS_Wholesale__c" />
+                            <option value="Explore_Hangars" />
+                            <option value="standard-DuplicateRecordSet" />
+                            <option value="standard-Account" />
+                            <option value="standard-home" />
+                            <option value="standard-OtherUserProfile" />
+                            <option value="Getting_Started_With_Survey_Force" />
+                            <option value="standard-AppLauncher" />
+                            <option value="standard-DandBCompany" />
+                            <option value="standard-Campaign" />
+                            <option value="standard-Sites" />
+                            <option value="standard-report" />
+                            <option value="standard-PartnerNetworkConnection" />
+                            <option value="Manage_Users" />
+                            <option value="standard-Contract" />
+                            <option value="standard-Chatter" />
+                            <option value="standard-Contact" />
+                            <option value="standard-Product2" />
+                            <option value="Quickstart" />
+                            <option value="standard-Asset" />
+                            <option value="Survey_Question__c" />
+                            <option value="standard-Idea" />
+                            <option value="standard-StreamingChannel" />
+                            <option value="standard-Dashboard" />
+                            <option value="standard-File" />
+                            <option value="Org_Information" />
+                            <option value="SMS_Shop__c" />
+                            <option value="Shops_Standard_API" />
+                            <option value="standard-Document" />
+                            <option value="standard-Pricebook2" />
+                            <option value="standard-ListEmail" />
+                            <option value="standard-UserProfile" />
+                            <option value="standard-Order" />
+                            <option value="standard-Workspace" />
+                            <option value="standard-Forecasting3" />
+                            <option value="standard-ProfilePlatformFeed" />
+                            <option value="SMS_Supply__c" />
+                            <option value="standard-CollaborationGroup" />
+                            <option value="Search_for_Shop" />
+                            <option value="standard-JigsawSearch" />
+                            <option value="Explore_Airplanes" />
+                            <option value="standard-ContentSearch" />
+                            <option value="standard-Lead" />
+                            <option value="Shop_Import" />
+                            <option value="standard-ContentContribute" />
+                            <option value="standard-ProfilePlatformOverview" />
+                            <option value="SurveyTaker__c" />
+                            <option value="standard-Console" />
+                            <option value="AP_Hangar__c" />
+                            <option value="standard-UserProvisioningRequest" />
+                            <option value="standard-Opportunity" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomTab" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Order" />
+                            <option value="SurveyQuestionResponse__c" />
+                            <option value="Account" />
+                            <option value="Task" />
+                            <option value="SMS_Supply__c" />
+                            <option value="Survey__c" />
+                            <option value="SMS_Shop__c" />
+                            <option value="SurveyTaker__c" />
+                            <option value="Case" />
+                            <option value="Contact" />
+                            <option value="SMS_Wholesale__c" />
+                            <option value="AP_Hangar__c" />
+                            <option value="ContentDocument" />
+                            <option value="Campaign" />
+                            <option value="Opportunity" />
+                            <option value="Lead" />
+                            <option value="Asset" />
+                            <option value="Event" />
+                            <option value="Survey_Question__c" />
+                            <option value="Contract" />
+                            <option value="Solution" />
+                          </set>
+                        </option>
+                        <option name="name" value="TopicsForObjects" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Shops" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomSite" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead" />
+                            <option value="Case" />
+                          </set>
+                        </option>
+                        <option name="name" value="AutoResponseRules" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="New_Shop" />
+                            <option value="New_Wholesale" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomPageWebLink" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Explore_Hangars" />
+                            <option value="Airplane_Record_Page" />
+                            <option value="LightningSalesConsole_UtilityBar" />
+                            <option value="Applane_UtilityBar" />
+                            <option value="LightningService_UtilityBar" />
+                            <option value="Explore_Airplanes" />
+                          </set>
+                        </option>
+                        <option name="name" value="FlexiPage" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Lead_Process" />
+                            <option value="Lead_Created" />
+                          </set>
+                        </option>
+                        <option name="name" value="FlowDefinition" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="SMS_Connection" />
+                          </set>
+                        </option>
+                        <option name="name" value="ConnectedApp" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="NewGroup" />
+                            <option value="Task.EditDescription" />
+                            <option value="FeedItem.NewTaskFromFeedItem" />
+                            <option value="NewNote" />
+                            <option value="Create_Airplane" />
+                            <option value="Task.EditDescription_0" />
+                            <option value="SendEmail" />
+                            <option value="NewLead" />
+                            <option value="Task.UpdateStatus" />
+                            <option value="NewOpportunity" />
+                            <option value="NewTask" />
+                            <option value="New_Airplane" />
+                            <option value="Task.Defer_0" />
+                            <option value="NewAccount" />
+                            <option value="Task.UpdateStatus_0" />
+                            <option value="Product2.Delete_Airplane" />
+                            <option value="Task.UpdatePriority" />
+                            <option value="Task.UpdatePriority_0" />
+                            <option value="Product2.Update_Airplane" />
+                            <option value="NewContact" />
+                            <option value="Task.Defer" />
+                            <option value="NewCase" />
+                            <option value="NewEvent" />
+                            <option value="LogACall" />
+                          </set>
+                        </option>
+                        <option name="name" value="QuickAction" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Survey_w_Questions_and_Answers" />
+                          </set>
+                        </option>
+                        <option name="name" value="ReportType" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="External_Shops" />
+                            <option value="Shop_Assistant" />
+                            <option value="Shop_Assistant_Manager_Import" />
+                            <option value="Standard_User" />
+                            <option value="aof" />
+                          </set>
+                        </option>
+                        <option name="name" value="PermissionSet" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Salesforce1" />
+                            <option value="AppSwitcher" />
+                          </set>
+                        </option>
+                        <option name="name" value="AppMenu" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Shop_Assistant_profileSessionSetting1522999032814" />
+                            <option value="Shops_Profile_profileSessionSetting1523546055822" />
+                            <option value="Sales_profileSessionSetting1525772358056" />
+                            <option value="Manager_profileSessionSetting1522999171323" />
+                            <option value="AP_Executive_profileSessionSetting1526300035423" />
+                            <option value="Manager_profileSessionSetting1523261219384" />
+                            <option value="Client_profileSessionSetting1525679897127" />
+                            <option value="Service_profileSessionSetting1525772454365" />
+                            <option value="Shop_Assistant_profileSessionSetting1523261178379" />
+                          </set>
+                        </option>
+                        <option name="name" value="ProfileSessionSetting" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="AP_RecordGallery" />
+                            <option value="hangarsSearch" />
+                            <option value="AP_hangarsSearchBox" />
+                            <option value="AP_hangarsSearchContainer" />
+                            <option value="AP_hangarSearchResultsRow" />
+                            <option value="AP_airplaneDataFormPickListValues" />
+                            <option value="AP_SearchAirplaneBox" />
+                            <option value="AP_hangarsSearchCard" />
+                            <option value="AP_AirplanePicture" />
+                            <option value="hangarsSearchResults" />
+                            <option value="AP_hangarsSearch" />
+                            <option value="AP_airplaneDataForm" />
+                            <option value="AP_PickListValues" />
+                            <option value="ContactsToday" />
+                            <option value="searchForHangars" />
+                            <option value="AP_SearchAirplane" />
+                            <option value="AP_hangarsSearchMap" />
+                            <option value="AP_hangarsSearchResults" />
+                            <option value="AP_DeleteAirplane" />
+                            <option value="AP_hangarsSearchDetails" />
+                          </set>
+                        </option>
+                        <option name="name" value="AuraDefinitionBundle" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Shops_Profile_profilePasswordPolicy1523546055770" />
+                            <option value="Client_profilePasswordPolicy1525679897084" />
+                            <option value="Shop_Assistant_profilePasswordPolicy1522999032717" />
+                            <option value="Executive_profilePasswordPolicy1525678095358" />
+                            <option value="Manager_profilePasswordPolicy1522999130691" />
+                            <option value="Shop_Assistant_profilePasswordPolicy1523261178275" />
+                            <option value="Service_profilePasswordPolicy1525772454307" />
+                            <option value="Sales_profilePasswordPolicy1525772358013" />
+                            <option value="Shops_Manager_profilePasswordPolicy1523261199724" />
+                          </set>
+                        </option>
+                        <option name="name" value="ProfilePasswordPolicy" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="SelfSignedCert_07May2018_094047" />
+                          </set>
+                        </option>
+                        <option name="name" value="Certificate" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="FiscalYearPeriodPrefix" />
+                            <option value="TaskPriority" />
+                            <option value="EventType" />
+                            <option value="CaseContactRole" />
+                            <option value="WorkOrderStatus" />
+                            <option value="Product2Family" />
+                            <option value="Industry" />
+                            <option value="CasePriority" />
+                            <option value="OrderType" />
+                            <option value="ContractContactRole" />
+                            <option value="TaskType" />
+                            <option value="IdeaStatus" />
+                            <option value="AccountRating" />
+                            <option value="SalesTeamRole" />
+                            <option value="CampaignType" />
+                            <option value="WorkOrderLineItemStatus" />
+                            <option value="AccountOwnership" />
+                            <option value="SolutionStatus" />
+                            <option value="AccountContactRole" />
+                            <option value="RoleInTerritory2" />
+                            <option value="CampaignMemberStatus" />
+                            <option value="ServiceContractApprovalStatus" />
+                            <option value="LeadSource" />
+                            <option value="CaseType" />
+                            <option value="CaseStatus" />
+                            <option value="OpportunityCompetitor" />
+                            <option value="PartnerRole" />
+                            <option value="QuickTextChannel" />
+                            <option value="CampaignStatus" />
+                            <option value="QuoteStatus" />
+                            <option value="ContractStatus" />
+                            <option value="EventSubject" />
+                            <option value="AssetStatus" />
+                            <option value="FiscalYearQuarterName" />
+                            <option value="Salutation" />
+                            <option value="ContactRole" />
+                            <option value="FiscalYearQuarterPrefix" />
+                            <option value="LeadStatus" />
+                            <option value="IdeaMultiCategory" />
+                            <option value="SocialPostEngagementLevel" />
+                            <option value="AccountContactMultiRoles" />
+                            <option value="EntitlementType" />
+                            <option value="FiscalYearPeriodName" />
+                            <option value="TaskSubject" />
+                            <option value="TaskStatus" />
+                            <option value="AccountType" />
+                            <option value="OpportunityStage" />
+                            <option value="SocialPostClassification" />
+                            <option value="CaseReason" />
+                            <option value="IdeaThemeStatus" />
+                            <option value="WorkOrderPriority" />
+                            <option value="QuickTextCategory" />
+                            <option value="OpportunityType" />
+                            <option value="SocialPostReviewedStatus" />
+                            <option value="CaseOrigin" />
+                          </set>
+                        </option>
+                        <option name="name" value="StandardValueSet" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="unfiled$public" />
+                          </set>
+                        </option>
+                        <option name="name" value="EmailFolder" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="unfiled$public" />
+                            <option value="Survey_Force_Reports" />
+                          </set>
+                        </option>
+                        <option name="name" value="ReportFolder" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="unfiled$public/Materials_Alert" />
+                            <option value="unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE" />
+                            <option value="unfiled$public/RejectionEmail" />
+                            <option value="unfiled$public/SupportSelfServiceResetPassword" />
+                            <option value="unfiled$public/DeactivationEmail" />
+                            <option value="unfiled$public/UpdateConnEmail" />
+                            <option value="unfiled$public/SupportSelfServiceNewLoginandPassword" />
+                            <option value="unfiled$public/SupportCaseCreatedPhoneInquiries" />
+                            <option value="unfiled$public/Marketing_materials_delay" />
+                            <option value="unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE" />
+                            <option value="unfiled$public/SupportCaseAssignmentNotification" />
+                            <option value="unfiled$public/SupportCaseResponse" />
+                            <option value="unfiled$public/SalesNewCustomerEmail" />
+                            <option value="unfiled$public/InvitationEmail" />
+                            <option value="unfiled$public/Invitation_to_survey" />
+                            <option value="unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE" />
+                            <option value="unfiled$public/SupportEscalatedCaseNotification" />
+                            <option value="unfiled$public/SupportCaseCreatedWebInquiries" />
+                            <option value="unfiled$public/VF_Anniversary_Alert" />
+                            <option value="unfiled$public/Anniversary_Alert" />
+                            <option value="unfiled$public/MarketingProductInquiryResponse" />
+                            <option value="unfiled$public/SupportEscalatedCaseReassignment" />
+                            <option value="unfiled$public/AcceptanceEmail" />
+                          </set>
+                        </option>
+                        <option name="name" value="EmailTemplate" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Survey_Force_Reports/Survey_with_Questions_and_Responses" />
+                          </set>
+                        </option>
+                        <option name="name" value="Report" />
+                      </MetadataType>
+                    </set>
+                  </option>
+                </MetadataContents>
+              </value>
+            </entry>
+          </map>
+        </option>
+      </ProjectWorkspaceSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lightning Applane" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lightning Applane" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lightning Applane" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lightning Applane" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc190332-e3d0-468c-ad01-885bf7cf6425" name="Default" comment="" />
+      <created>1526462218203</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526462218203</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Anonymous Apex" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="SOQL Query" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Log Viewer" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>
