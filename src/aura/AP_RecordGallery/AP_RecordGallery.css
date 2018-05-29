@@ -1,0 +1,20 @@
+.THIS {
+
+}
+
+.THIS .slds-carousel__content {
+    display: none !important;
+}
+
+.THIS .thumbnail {
+    transition: 0.3s;
+    opacity: 0.8;
+    padding: 10px;
+    border-radius: 20px !important;
+}
+
+.THIS .thumbnail:hover {
+    opacity: 1;
+    padding: 0;
+    cursor: pointer !important;
+}
