@@ -12,7 +12,7 @@
                 <div class="slds-col slds-size_1-of-1" id="thumbnail container">
                     <aura:iteration items="{!v.sources}" var="singleSource">
                         <img src="{!singleSource}" alt="thumbnail" class="slds-col slds-size_1-of-3 slds-p-around--small thumbnail" onclick="{!c.selectPhoto}"/>
-                    </aura:iteration>
+                    </aura:iteration >
                 </div>
             </div>
         </lightning:card>
