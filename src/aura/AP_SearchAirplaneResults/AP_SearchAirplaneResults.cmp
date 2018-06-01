@@ -1,0 +1,13 @@
+<aura:component description="AP_SearchAirplaneResults" controller="AP_SearchAirplaneController" implements="flexipage:availableForAllPageTypes">
+    <aura:handler event="c:AP_OnSearchAirplane" action="{!c.doSearch}"/>
+    <aura:attribute name="airplanes" type="List" default="[]"/>
+    <aura:attribute name="showSpinner" type="Boolean"/>
+    <aura:if isTrue="{!v.airplanes.length > 0}">
+    <lightning:card class="slds-m-around--large">
+        <c:AP_Spinner show="{!v.showSpinner}"/>
+        <aura:iteration items="{!v.airplanes}" var="plane">
+            <c:AP_AirplaneTile airplane="{!plane}"/>
+        </aura:iteration>
+    </lightning:card>
+    </aura:if>
+</aura:component>
