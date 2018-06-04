@@ -1,0 +1,23 @@
+<aura:component description="AP_ProductListView" implements="flexipage:availableForAllPageTypes" access="global">
+    <aura:attribute name="CustomStyles" type="Aura.Component"/>
+    <aura:handler name="init" value="{!this}" action="{!c.hideStandardFlexipageHeader}"/>
+    <aura:attribute name="showModal" type="Boolean"/>
+        {!v.CustomStyles}
+    <div class="flexipageHeader slds-page-header slds-grid" style="position: relative;">
+        <div class="small forceEntityIcon slds-m-bottom--medium slds-size--1-of-12" style="display: inline-block">
+            <lightning:icon iconName="custom:custom20" size="large"/>
+        </div>
+        <h1 style="display: inline-block; font-size: 2em;" class="slds-size--1-of-12 slds-m-left--large">{!$Label.c.AP_Airplanes}</h1>
+        <div class="slds-m-top--small" style="float: right; position: absolute; right: 20px;">
+            <lightning:button label="{!$Label.c.AP_New_Airplane}" variant="brand" onclick="{!c.openModal}"/>
+        </div>
+    </div>
+    <c:AP_NewAirplane showModal="{!v.showModal}"/>
+    <c:DynamicTable
+            SObjectName="Product2"
+            FieldNames="['Name','Family','Drive_Type__c','Number_of_seats__c','Maximum_Range__c','Wingspan__c']"
+            ReferenceFields="['Name']"
+            SortByField="Family"
+            SortOrder="DESC"
+    />
+</aura:component>
