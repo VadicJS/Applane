@@ -21,16 +21,7 @@
                     component.set('v.sources', srcs);
                 }
             } else if (state === 'ERROR') {
-                console.log(response.getError()[0].message);
-                let errorData = JSON.parse(response.getError()[0].message);
-                console.log(errorData.name +" (code "+ errorData.code +"): "+ errorData.message);
-                let resultToast = $A.get("e.force:showToast");
-                resultToast.setParams({
-                "message" : errorData.name +" (code "+ errorData.code +"): "+ errorData.message,
-                "type" : 'error',
-                "mode" : 'sticky'
-                });
-                resultToast.fire();
+                helper.handleError(component, event, helper);
             }
         });
         $A.enqueueAction(action);
@@ -40,5 +31,16 @@
         var elementSource = selectedItem.getAttribute('src');
         component.set('v.mainSrc', elementSource);
         console.log(elementSource);
+    },
+    handleError : function(component, response, helper) {
+        console.log(response.getError()[0].message);
+        let errorData = JSON.parse(response.getError()[0].message);
+        console.log(errorData.name +" (code "+ errorData.code +"): "+ errorData.message);
+        let errToast = $A.get("e.force:showToast");
+        errToast.setParams({
+        "message": errorData.name +" (code "+ errorData.code +"): "+ errorData.message,
+        "type": 'error'
+        });
+        errToast.fire();
     }
 })
