@@ -3,10 +3,10 @@ public with sharing class AP_SearchAirplaneController {
 
     @AuraEnabled
     public static List<Product2> searchAirplanes(String aFamily, String dType, String engNo, String name) {
-        String fam = '%' + aFamily + '%';
-        String drive = '%' + dType + '%';
-        String engNumber = '%' + engNo + '%';
-        String prodName = '%' + name + '%';
+        String fam = AP_Util.wrapToLike(aFamily);
+        String drive = AP_Util.wrapToLike(dType);
+        String engNumber = AP_Util.wrapToLike(engNo);
+        String prodName = AP_Util.wrapToLike(name);
         try {
 
             List<Product2> airplanes = [

@@ -1,21 +1,22 @@
 ({
     doInit : function(component) {
         let action = component.get("c.getAttachments");
+        let baseUrl = '/servlet/servlet.FileDownload?file=';
         action.setParams({objectId: component.get("v.recordId")});
         action.setCallback(this, function(act) {
             let state = act.getState();
             if(state === 'SUCCESS' || state === 'DRAFT') {
                 let atts = act.getReturnValue();
                 if (atts.length > 0) {
-                    component.set('v.mainSrc', '/servlet/servlet.FileDownload?file=' + atts[0].Id);
+                    component.set('v.mainSrc', baseUrl + atts[0].Id);
                     for(let i=0; i<atts.length; i++) {
                         if(atts[i].Description == 'main'){
-                            component.set('v.mainSrc', '/servlet/servlet.FileDownload?file=' + atts[i].Id);
+                            component.set('v.mainSrc', baseUrl + atts[i].Id);
                         }
                     }
                     let srcs = [];
                     for (let i = 0; i < atts.length; i++) {
-                        let singleSource = '/servlet/servlet.FileDownload?file=' + atts[i].Id;
+                        let singleSource = baseUrl + atts[i].Id;
                         srcs.push(singleSource);
                     }
                     component.set('v.sources', srcs);
@@ -32,15 +33,5 @@
         component.set('v.mainSrc', elementSource);
         console.log(elementSource);
     },
-    handleError : function(component, response, helper) {
-        console.log(response.getError()[0].message);
-        let errorData = JSON.parse(response.getError()[0].message);
-        console.log(errorData.name +" (code "+ errorData.code +"): "+ errorData.message);
-        let errToast = $A.get("e.force:showToast");
-        errToast.setParams({
-        "message": errorData.name +" (code "+ errorData.code +"): "+ errorData.message,
-        "type": 'error'
-        });
-        errToast.fire();
-    }
+
 })

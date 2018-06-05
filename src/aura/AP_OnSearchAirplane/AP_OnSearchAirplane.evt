@@ -1,0 +1,6 @@
+<aura:event type="APPLICATION" description="AP_OnSearchAirplane">
+    <aura:attribute name="family" type="String"/>
+    <aura:attribute name="engNo" type="String"/>
+    <aura:attribute name="dType" type="String"/>
+    <aura:attribute name="name" type="String"/>
+</aura:event>

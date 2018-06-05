@@ -1,0 +1,87 @@
+<aura:component description="AP_NewAirplane" controller="AP_NewAirplaneController" implements="force:lightningQuickAction, flexipage:availableForRecordHome, force:hasRecordId">
+    <aura:attribute name="familyValues" type="Object"/>
+    <aura:attribute name="numberOfEnginesValues" type="Object"/>
+    <aura:attribute name="driveTypeValues" type="Object"/>
+    <aura:attribute name="airplaneRecord" type="Product2"/>
+    <aura:attribute name="mainPicture" type="String"/>
+    <aura:attribute name="picturesToDelete" type="List"/>
+    <aura:attribute name="images" type="List"/>
+    <aura:attribute name="showSpinner" type="Boolean"/>
+    <aura:attribute name="showModal" type="Boolean"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:handler name="AP_ImagesSmuggler" event="c:AP_ImagesSmuggler" action="{!c.setImages}"/>
+    <aura:registerEvent name="AP_OnCreateNewAirplane" type="c:AP_OnCreateNewAirplane"/>
+    <aura:attribute name="record" type="Object"/>
+    <c:AP_airplaneDataFormPickListValues sObjectName="Product2" fieldName="Family" pickListValues="{!v.familyValues}"/>
+    <c:AP_airplaneDataFormPickListValues sObjectName="Product2" fieldName="Number_of_engines__c" pickListValues="{!v.numberOfEnginesValues}"/>
+    <c:AP_airplaneDataFormPickListValues sObjectName="Product2" fieldName="Drive_Type__c" pickListValues="{!v.driveTypeValues}"/>
+    <force:recordData aura:id="forceRecord"
+                      recordId="{!v.recordId}"
+                      layoutType="FULL"
+                      targetRecord="{!v.record}"
+                      targetFields="{!v.airplaneRecord}"
+                      mode="EDIT"/>
+    <aura:if isTrue="{!v.showModal}">
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" id="newClientSectionId" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open slds-modal_large" style=" background-color: rgba(0, 0, 0, 0.4);">
+            <div class="slds-modal__container">
+                <div class="slds-modal__header">
+                    <h2 id="header43" class="slds-text-heading--medium">{!$Label.c.AP_New_Airplane}</h2>
+                </div>
+                <div class="slds-modal__content slds-p-around--medium" style="height: 450px;">
+                    <c:AP_Spinner show="{!v.showSpinner}"/>
+                    <div class="slds-p-around--medium slds-grid slds-wrap ">
+                        <div class="slds-col slds-size--1-of-2 slds-grid slds-wrap slds-p-around--small">
+                            <div class="slds-col slds-size--1-of-3">
+                                <lightning:input aura:id="airplaneName" value="{!v.airplaneRecord.Name}" name="airplaneName" label="{!$Label.c.Name}" required="true" class="slds-p-horizontal_x-small"/>
+                                <lightning:select aura:id="family" value="{!v.airplaneRecord.Family}" name="family" label="{!$Label.c.AP_Product_Family}" class="slds-p-horizontal_x-small">
+                                    <aura:iteration items="{!v.familyValues}" var="item">
+                                        <option value="{!item}">{!item}</option>
+                                    </aura:iteration>
+                                </lightning:select>
+
+                                <lightning:input type="number" value="{!v.airplaneRecord.Wingspan__c}" step="0.01" aura:id="wingspan" name="wingspan" label="{!$Label.c.AP_Wingspan}" required="true" class="slds-p-horizontal_x-small slds-m-right--small"/>
+
+                                <lightning:input type="number" value="{!v.airplaneRecord.Length__c}" step="0.01" aura:id="length" name="length" label="{!$Label.c.AP_Length}" required="true" class="slds-p-horizontal_x-small slds-m-right--small"/>
+                            </div>
+
+                            <div class="slds-col slds-size--1-of-3">
+
+                                <lightning:select aura:id="numberOfEngines" value="{!v.airplaneRecord.Number_of_engines__c}" name="numberOfEngines" label="{!$Label.c.AP_Number_Of_Engines}" class="slds-p-horizontal_x-small">
+                                    <aura:iteration items="{!v.numberOfEnginesValues}" var="item">
+                                        <option value="{!item}">{!item}</option>
+                                    </aura:iteration>
+                                </lightning:select>
+                                <lightning:input type="number" value="{!v.airplaneRecord.Maximum_Cruise_Speed__c}" aura:id="maximumCruiseSpeed" name="maximumCruiseSpeed" label="{!$Label.c.AP_Maximum_Cruise_Speed}" class="slds-p-horizontal_x-small slds-m-right--small"/>
+
+
+                                <lightning:input type="number" value="{!v.airplaneRecord.Number_of_seats__c}" aura:id="numberOfSeats" name="numberOfSeats" label="{!$Label.c.AP_Number_Of_Seats}" class="slds-p-horizontal_x-small slds-m-right--small"/>
+                                <lightning:input value="{!v.airplaneRecord.Main_Engine__c}" aura:id="mainEngine" name="mainEngine" label="{!$Label.c.AP_Main_Engine}" class="slds-p-horizontal_x-small"/>
+                            </div>
+                            <div class="slds-col slds-size--1-of-3 ">
+                                <lightning:select aura:id="driveType" value="{!v.airplaneRecord.Drive_Type__c}" name="driveType" label="{!$Label.c.AP_Drive_Type}" class="slds-p-horizontal_x-small">
+                                    <aura:iteration items="{!v.driveTypeValues}" var="item">
+                                        <option value="{!item}">{!item}</option>
+                                    </aura:iteration>
+                                </lightning:select>
+                                <lightning:input type="number" value="{!v.airplaneRecord.Useful_Load__c}" aura:id="usefulLoad" name="usefulLoad" label="{!$Label.c.AP_Useful_Load}" class="slds-p-horizontal_x-small slds-m-right--small"/>
+
+                            <lightning:input type="number" value="{!v.airplaneRecord.Takeoff_field_length__c}" aura:id="takeOffFieldLength" name="takeOffFieldLength" label="{!$Label.c.AP_Takeoff_Field_Length}" class="slds-p-horizontal_x-small"/>
+                            <lightning:input type="number" value="{!v.airplaneRecord.Maximum_Range__c}" aura:id="maximumRange" name="maximumRange" label="{!$Label.c.AP_Maximum_Range}" class="slds-p-horizontal_x-small slds-m-right--small"/>
+                            </div>
+                            <lightning:textarea value="{!v.airplaneRecord.Description}" aura:id="mainEngine" name="mainEngine" label="{!$Label.c.AP_Description}" class="slds-size--1-of-1 slds-p-horizontal_x-small"/>
+
+                        </div>
+                        <div class="slds-col slds-size--1-of-2">
+                            <c:AP_AirplanePicture recordId="{!v.recordId}"/>
+                        </div>
+                    </div>
+                </div>
+                <footer class="slds-modal__footer">
+                    <lightning:button variant="brand" label="{!$Label.c.Save}" onclick="{!c.saveRecord}"/>
+                    <button class="slds-button slds-button--neutral" onclick="{!c.hideModal}">{!$Label.c.Cancel}</button>
+                </footer>
+            </div>
+        </section>
+    </aura:if>
+
+</aura:component>

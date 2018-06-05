@@ -1,4 +1,4 @@
-<aura:component description="AP_RecordGallery" controller="AP_RecordGalleryController" implements="flexipage:availableForAllPageTypes,force:hasRecordId" access="global">
+<aura:component description="AP_RecordGallery" controller="AP_RecordGalleryController" implements="flexipage:availableForAllPageTypes,force:hasRecordId, forceCommunity:availableForAllPageTypes" access="global">
     <aura:attribute name="mainSrc" type="String"/>
     <aura:attribute name="recordId" type="Id"/>
     <aura:attribute name="sources" type="List"/>

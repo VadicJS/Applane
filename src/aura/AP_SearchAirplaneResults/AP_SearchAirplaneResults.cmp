@@ -1,4 +1,4 @@
-<aura:component description="AP_SearchAirplaneResults" controller="AP_SearchAirplaneController" implements="flexipage:availableForAllPageTypes">
+<aura:component description="AP_SearchAirplaneResults" controller="AP_SearchAirplaneController" implements="flexipage:availableForAllPageTypes, forceCommunity:availableForAllPageTypes">
     <aura:handler event="c:AP_OnSearchAirplane" action="{!c.doSearch}"/>
     <aura:attribute name="airplanes" type="List" default="[]"/>
     <aura:attribute name="showSpinner" type="Boolean"/>

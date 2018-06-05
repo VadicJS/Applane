@@ -1,0 +1,19 @@
+<aura:component description="AP_AirplaneTile">
+    <aura:attribute name="airplane" type="Object"/>
+    <div onclick="{!c.navigate}" class="tile slds-m-around--small" style="{!'background-image:url(/servlet/servlet.FileDownload?file='+v.airplane.Attachments[0].Id+')'}">
+        <lightning:card class="littleDescription" title="{!v.airplane.Name}">
+            <ul class="slds-m-around--medium dataList">
+                <li><label class="lbl">{!$Label.c.AP_Wingspan}:&nbsp;</label> {!v.airplane.Wingspan__c}</li>
+                <li><label class="lbl">{!$Label.c.AP_Length}:&nbsp;</label> {!v.airplane.Length__c}</li>
+                <li>
+                    <label class="lbl">{!$Label.c.AP_Number_Of_Seats}:&nbsp;</label> {!v.airplane.Number_of_seats__c}
+                </li>
+                <li><label class="lbl">{!$Label.c.AP_Drive_Type}:&nbsp;</label> {!v.airplane.Drive_Type__c}</li>
+                <li>
+                    <label class="lbl">{!$Label.c.AP_Number_Of_Engines}:&nbsp;</label> {!v.airplane.Number_of_engines__c}
+                </li>
+                <li><label class="lbl">{!$Label.c.AP_Main_Engine}:&nbsp;</label> {!v.airplane.Main_Engine__c}</li>
+            </ul>
+        </lightning:card>
+    </div>
+</aura:component>

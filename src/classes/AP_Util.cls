@@ -12,6 +12,9 @@ public with sharing class AP_Util {
     }
 
 
+    public static String wrapToLike(String text) {
+        return '%' + text + '%';
+    }
 
     public class AddressComponent {
         public string long_name { get; set; }

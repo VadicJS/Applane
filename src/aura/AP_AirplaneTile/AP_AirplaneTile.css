@@ -1,0 +1,45 @@
+.THIS {
+}
+.THIS.tile{
+    display: inline-block;
+    width: 300px;
+    height: 230px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 5px;
+}
+
+.THIS .littleDescription{
+    width: 300px;
+    height: 36px;
+    position: absolute;
+    bottom: 0px;
+    border: 1px solid lightblue;
+    transition: 0.75s ease-in-out 0s;
+    color: rgba(0, 0, 0, 1);
+}
+
+.THIS.tile:hover .littleDescription{
+    height: 230px;
+    opacity: 0.8;
+    transition: 0.3s ease-in-out 0s;
+    cursor: pointer;
+}
+.THIS .dataList{
+    display: none;
+    transition: ease-in-out 3s;
+}
+.THIS.tile:hover .littleDescription:hover .dataList{
+    display: block;
+    transition: ease-in-out 3s;
+}
+
+.THIS .slds-text-heading--small{
+    font-weight: bold;
+}
+
+.THIS .lbl{
+    font-weight: bold;
+}

@@ -1,5 +1,5 @@
-<aura:component description="AP_SearchAirplaneBox"  access="global" implements="flexipage:availableForAllPageTypes">
-    <aura:attribute name="family" type="String"/>
+<aura:component description="AP_SearchAirplaneBox"  access="global" implements="flexipage:availableForAllPageTypes, forceCommunity:availableForAllPageTypes">
+    <aura:attribute name="family" type="String" default=""/>
     <aura:attribute name="name" type="String" default=""/>
     <aura:attribute name="driveType" type="String"/>
     <aura:attribute name="numberOfEngines" type="Integer"/>
@@ -7,6 +7,7 @@
     <aura:attribute name="numberOfEnginesPickList" type="List"/>
     <aura:attribute name="driveTypePickList" type="List"/>
     <aura:registerEvent name="AP_OnSearchAirplane" type="c:AP_OnSearchAirplane" />
+    <aura:handler name="init" value="{!this}" action="{!c.doSearch}" />
     <c:AP_PickListValues sObjectName="Product2" fieldName="Drive_Type__c" pickListValues="{!v.driveTypePickList}"/>
     <c:AP_PickListValues sObjectName="Product2" fieldName="Family" pickListValues="{!v.familyPickList}"/>
     <c:AP_PickListValues sObjectName="Product2" fieldName="Number_of_engines__c" pickListValues="{!v.numberOfEnginesPickList}"/>
@@ -29,7 +30,6 @@
                                     <div class="slds-form-element slds-size_1-of-2">
                                         <lightning:select label="{!$Label.c.AP_Product_Family}" name="selectFamily"
                                                           value="{!v.family}" onchange="{!c.doSearch}">
-                                            <option value=""></option>
                                             <aura:iteration items="{!v.familyPickList}" var="opt">
                                                 <option value="{!opt}">{!opt}</option>
                                             </aura:iteration>
