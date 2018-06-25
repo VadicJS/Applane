@@ -1,0 +1,22 @@
+<aura:component description="AP_CC_AppointmentItem">
+    <aura:attribute name="appointment" type="Object"/>
+    <aura:attribute name="index" type="Integer"/>
+    <aura:registerEvent name="AP_CC_EventRemoved" type="c:AP_CC_EventRemoved"/>
+    <div style="display: inline-block; border: 1px solid gray;">
+        <div style="background-color: lightblue; padding-bottom: 9px; position: relative;">
+            <h1 style="font-weight: bold; font-size: 1.3em; display: inline-block;" class="slds-p-right--medium slds-p-left--medium">
+                <a onclick="{!c.navigate}"> {!v.appointment.plane.Name}</a></h1>
+            <div style="display: inline-block; padding: 0px; position: absolute; top: 0px; right: 0px;" onclick="{!c.remove}">
+                <lightning:icon iconName="utility:close" size="xx-small"/>
+            </div>
+        </div>
+        <div class="slds-m-left--medium slds-m-right--medium">
+            <span style="color: gray">{!v.appointment.placeHangar.Name}</span><br/>
+            <span style="color: gray">{!v.appointment.placeHangar.Country__c}</span><br/>
+            <span style="color: gray">{!v.appointment.placeHangar.City__c}</span><br/>
+            <span style="color: gray">{!v.appointment.placeHangar.Street__c}&nbsp;{!v.appointment.placeHangar.Property_number__c}</span><br/>
+            <lightning:formattedDateTime value="{!v.appointment.dateOfEvent}" year="numeric" month="numeric" day="numeric" hour="2-digit"
+                                         minute="2-digit" timeZone="UTC" timeZoneName="short" hour12="false"/>
+        </div>
+    </div>
+</aura:component>

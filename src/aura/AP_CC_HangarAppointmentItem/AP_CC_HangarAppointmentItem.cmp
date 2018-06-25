@@ -1,0 +1,12 @@
+<aura:component description="AP_CC_HangarAppointmentItem">
+    <aura:attribute name="hangar" type="Object" />
+    <aura:attribute name="selectedHangar" type="Object" />
+    <aura:attribute name="showModal" type="Boolean" />
+    <aura:registerEvent name="AP_CC_OnHangarSelected" type="c:AP_CC_OnHangarSelected" />
+    <div class="slds-p-around--medium tile" style="display: inline-block;" onclick="{!c.display}">
+    <h1 style="font-weight: bold; font-size: 1.3em;">{!v.hangar.Name}</h1>
+        <span style="color: gray">{!v.hangar.Country__c}</span><br/>
+        <span style="color: gray">{!v.hangar.City__c}</span><br/>
+        <span style="color: gray">{!v.hangar.Street__c}&nbsp;{!v.hangar.Property_number__c}</span>
+    </div>
+</aura:component>

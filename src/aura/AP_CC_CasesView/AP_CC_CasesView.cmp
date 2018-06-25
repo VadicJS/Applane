@@ -1,0 +1,48 @@
+<aura:component description="AP_CC_CasesView" implements="forceCommunity:availableForAllPageTypes" controller="AP_CC_CaseFormController">
+    <aura:attribute name="cases" type="List"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <div style="max-height: 200px; overflow: auto;">
+        <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+            <thead>
+            <tr class="slds-text-title_caps">
+                <th scope="col">
+                    <div class="slds-truncate" title="{!$Label.c.AP_Case}">{!$Label.c.AP_Case}</div>
+                </th>
+                <th scope="col">
+                    <div class="slds-truncate" title="{!$Label.c.AP_Open}">{!$Label.c.AP_Open}</div>
+                </th>
+                <th scope="col">
+                    <div class="slds-truncate" title="{!$Label.c.AP_Closed}">{!$Label.c.AP_Closed}</div>
+                </th>
+                <th scope="col">
+                    <div class="slds-truncate" title="{!$Label.c.AP_Status}">{!$Label.c.AP_Status}</div>
+                </th>
+                <th scope="col">
+                    <div class="slds-truncate" title="{!$Label.c.AP_Subject}">{!$Label.c.AP_Subject}</div>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <aura:iteration items="{!v.cases}" var="case">
+                <tr>
+                    <td>
+                            {!case.CaseNumber}
+                    </td>
+                    <td>
+                        <ui:outputDateTime value="{!case.CreatedDate}"/>
+                    </td>
+                    <td>
+                        <ui:outputDateTime value="{!case.ClosedDate}"/>
+                    </td>
+                    <td>
+                            {!case.Status}
+                    </td>
+                    <td>
+                            {!case.Subject}
+                    </td>
+                </tr>
+            </aura:iteration>
+            </tbody>
+        </table>
+    </div>
+</aura:component>

@@ -1,0 +1,18 @@
+<aura:component description="AP_CC_AirplaneAppointment" controller="AP_CC_AirplaneAppointmentController" access="global">
+    <aura:attribute name="hangars" type="Object[]"/>
+    <aura:attribute name="recordId" type="String"/>
+    <aura:attribute name="airplane" type="Object"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="showSpinner" type="Boolean"/>
+    <c:AP_Spinner show="{!v.showSpinner}"/>
+    <aura:if isTrue="{!v.hangars.length > 0}">
+        <h1 style="font-weight: bold; font-size: 1.4em">{!$Label.c.AP_You_can_see_this_airplane_in}</h1>
+    </aura:if>
+    <aura:if isTrue="{!v.hangars.length == 0}">
+        <h1 style="font-weight: bold; font-size: 1.4em">{!$Label.c.AP_Plane_not_available}</h1>
+    </aura:if>
+    <aura:iteration items="{!v.hangars}" var="hangar">
+        <c:AP_CC_HangarAppointmentItem hangar="{!hangar}"/>
+    </aura:iteration>
+    <c:AP_CC_AppointmentModal airplane="{!v.airplane}"/>
+</aura:component>

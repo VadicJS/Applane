@@ -1,0 +1,74 @@
+<aura:component description="AP_CC_CaseForm" controller="AP_CC_CaseFormController" implements="forceCommunity:availableForAllPageTypes">
+    <aura:attribute name="newCase" type="Object"/>
+    <aura:attribute name="simpleNewCase" type="Object"/>
+    <aura:attribute name="newCaseError" type="Object"/>
+    <aura:attribute name="orders" type="Object[]"/>
+    <aura:attribute name="selectedOrder" type="String"/>
+    <aura:attribute name="originValues" type="List"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <c:AP_PickListValues fieldName="Reason" sObjectName="Case" pickListValues="{!v.originValues}"/>
+    <force:recordData aura:id="caseRecordCreator"
+                      layoutType="FULL"
+                      targetRecord="{!v.newCase}"
+                      targetFields="{!v.simpleNewCase}"
+                      targetError="{!v.newCaseError}"/>
+
+    <div class="slds-form slds-form_compound">
+        <fieldset class="slds-form-element">
+            <legend class="slds-form-element__label slds-text-title_caps">{!$Label.c.AP_How_can_we_help_you}</legend>
+            <div class="slds-form-element__group">
+                <div class="slds-form-element__row">
+                    <div class="slds-form-element slds-size_1-of-1">
+                        <lightning:input type="text" label="{!$Label.c.AP_Subject}"  value="{!v.simpleNewCase.Subject}" required="true"/>
+                    </div>
+                </div>
+                <div class="slds-form-element__row">
+                    <div class="slds-form-element slds-size_1-of-1">
+                        <label class="slds-form-element__label" for="input-03">{!$Label.c.AP_Order}</label>
+                        <input type="text" id="input-03" class="slds-input" onclick="{!c.openModal}" value="{!v.selectedOrder}"/>
+                    </div>
+                </div>
+                <div class="slds-form-element__row">
+                    <div class="slds-form-element slds-size_1-of-2">
+                        <lightning:select label="Reason" value="{!v.simpleNewCase.Reason}" required="true">
+                            <aura:iteration items="{!v.originValues}" var="opt">
+                                <option value="{!opt}">{!opt}</option>
+                            </aura:iteration>
+                        </lightning:select>
+                    </div>
+                </div>
+                <div class="slds-form-element__row">
+                    <div class="slds-form-element slds-size_1-of-1">
+                        <label class="slds-form-element__label" for="input-03">{!$Label.c.AP_Description}</label>
+                        <ui:inputTextArea value="{!v.simpleNewCase.Description}" required="true"/>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <button class="slds-button--brand" onclick="{!c.submit}" label="{!$Label.c.AP_Submit}" variant="brand"/>
+    </div>
+    <div class="slds-modal slds-modal_large" aria-hidden="false" role="dialog" id="modal">
+        <div class="slds-modal__container">
+            <div class="slds-modal__header">
+                <h2 class="slds-text-heading--medium">{!$Label.c.AP_Select_Order}</h2>
+            </div>
+            <div class="slds-modal__content slds-p-around--medium">
+                <lightning:accordion>
+                    <aura:iteration items="{!v.orders}" var="order" indexVar="index">
+                        <lightning:accordionSection label="{!'$' + order.TotalAmount}">
+
+                            <aura:set attribute="actions">
+                                <button data-id="{!order.Id}" class="slds-button--brand" onclick="{!c.selectOrder}">{!$Label.c.AP_Select}</button>
+                            </aura:set>
+                            <c:AP_CC_OrderItemsTable items="{!order.OrderItems}"/>
+                        </lightning:accordionSection>
+                    </aura:iteration>
+                </lightning:accordion>
+            </div>
+            <div class="slds-modal__footer">
+                <button class="slds-button slds-button--neutral" onclick="{!c.closeModal}">{!$Label.c.AP_Cancel}</button>
+            </div>
+        </div>
+    </div>
+    <div class="slds-backdrop" id="backdrop"></div>
+</aura:component>

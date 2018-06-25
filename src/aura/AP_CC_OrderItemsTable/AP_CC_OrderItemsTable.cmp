@@ -1,0 +1,19 @@
+<aura:component description="AP_CC_OrderItemsTable">
+    <aura:attribute name="items" type="List"/>
+    <table class="slds-table slds-table_bordered slds-table_cell-buffer">
+        <thead>
+        <th>Airplane</th>
+        <th>Quantity</th>
+        </thead>
+        <tbody>
+        <aura:iteration items="{!v.items}" var="item">
+            <tr>
+                <td><a onclick="{!c.navigate}" data-id="{!item.Product2.Id}">{!item.Product2.Model__r.Name}</a></td>
+                <td>
+                    <ui:outputNumber value="{!item.Quantity}"/>
+                </td>
+            </tr>
+        </aura:iteration>
+        </tbody>
+    </table>
+</aura:component>

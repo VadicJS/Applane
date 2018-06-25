@@ -1,0 +1,4 @@
+<aura:event type="APPLICATION" description="AP_CC_OnHangarSelected">
+    <aura:attribute name="hangar" type="Object" />
+    <aura:attribute name="showModal" type="Boolean" />
+</aura:event>

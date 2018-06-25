@@ -1,0 +1,32 @@
+<aura:component description="AP_CC_AppointmentModal" controller="AP_CC_AirplaneAppointmentController">
+    <aura:attribute name="showModal" type="Boolean"/>
+    <aura:attribute name="hangar" type="AP_Hangar__c"/>
+    <aura:attribute name="eventDate" type="Datetime"/>
+    <aura:attribute name="airplane" type="Object"/>
+    <aura:attribute name="showSpinner" type="Boolean"/>
+    <aura:handler event="c:AP_CC_OnHangarSelected" action="{!c.handleSelectedHangar}"/>
+    <aura:registerEvent name="AP_CC_AppointmentAdded" type="c:AP_CC_AppointmentAdded"/>
+    <c:AP_Spinner show="{!v.showSpinner}"/>
+    <aura:if isTrue="{!v.showModal}">
+        <div class="demo-only" style="height: 640px;">
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <header class="slds-modal__header">
+                        <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">{!$Label.c.AP_Make_an_appointment_in}&nbsp;{!v.hangar.Name}</h2>
+                    </header>
+                    <div class="slds-modal__content slds-p-around_medium row" id="modal-content-id-1" style="font-size: 1.1em;">
+                        <span>{!v.hangar.Country__c},&nbsp;{!v.hangar.City__c}</span><br/>
+                        <span>{!v.hangar.Street__c}&nbsp;{!v.hangar.Property_number__c}</span>
+                        <ui:inputDateTime aura:id="today" label="{!$Label.c.AP_Please_select_the_best_date}" class="field" value="{!v.eventDate}"
+                                          displayDatePicker="true" required="true"/>
+                    </div>
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_neutral" onclick="{!c.closeModal}">{!$Label.c.Cancel}</button>
+                        <button class="slds-button slds-button_brand" onclick="{!c.saveToCacheMemory}">{!$Label.c.Save}</button>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </div>
+    </aura:if>
+</aura:component>

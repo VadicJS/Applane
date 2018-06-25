@@ -1,0 +1,7 @@
+.THIS {
+}
+
+.THIS.tile:hover {
+    cursor: pointer;
+    background: rgba(0, 110, 255, 0.3);
+}

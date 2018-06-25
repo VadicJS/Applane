@@ -1,0 +1,2 @@
+<aura:event type="APPLICATION" description="AP_CC_AppointmentAdded">
+</aura:event>
